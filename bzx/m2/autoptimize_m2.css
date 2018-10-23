@@ -28892,8 +28892,14 @@ slide {
 							display: none
 						}
 					}
+
+
 					/* custom yaovi coder */
-					.io-lobelia .section-bg-alt {
+					.navbar .navbar-nav a {
+    				font-family: "futura-medium", "Poppins", sans-serif;
+					}
+
+					.io-lobelia .section-bg-alt, .io-lobelia .section-bg {
 						position: relative;
 					}
 					.io-lobelia .section-bg-alt:before {
@@ -28906,8 +28912,6 @@ slide {
 						height: 100%;
 						z-index: 1;
 						opacity: 0.1;
-						background: url(img/bzx_grey.png) no-repeat 50% 0%/cover, #0D3851;
-						*/ background-color: #0D3851;
 						background-image: url('img/bzx_grey.png');
 						background-repeat: no-repeat;
 						background-position: 50% 0;
