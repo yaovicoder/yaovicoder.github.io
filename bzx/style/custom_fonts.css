@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'futura-medium';
+  src: url('../fonts/futura-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-medium-italic';
+  src: url('../fonts/futura-medium-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'futura-bold';
+  src: url('../fonts/futura-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-bold-italic';
+  src: url('../fonts/futura-bold-italic.ttf') format('truetype');
+}
+
+/* evolve-sans */
+
+@font-face {
+  font-family: 'evolve-sans-regular';
+  src: url('../fonts/evolve-sans-regular.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-light';
+  src: url('../fonts/evolve-sans-light.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('../fonts/evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('../fonts/evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-bold';
+  src: url('../fonts/evolve-sans-bold.otf');
+}
