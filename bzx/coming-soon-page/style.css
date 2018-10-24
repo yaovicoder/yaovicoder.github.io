@@ -232,6 +232,7 @@ html {
 }
 
 .cspio h1#cspio-logo-text span.italic{
+  font-family: "evolve-sans-italic", Helvetica, Arial, sans-serif;
   color: #fff;
   font-style: italic;
 }
