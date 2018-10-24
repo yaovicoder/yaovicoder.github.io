@@ -33,7 +33,7 @@ html {
 }
 
 .cspio body, .cspio body p {
-  font-family: "futura-bold",  Helvetica, Arial, sans-serif;
+  font-family: "futura-medium",  Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: ;
   font-size: 20px;
@@ -42,7 +42,7 @@ html {
 }
 
 ::-webkit-input-placeholder {
-  font-family: "futura-bold", Helvetica, Arial, sans-serif;
+  font-family: "futura-medium", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: ;
 }
@@ -224,7 +224,7 @@ html {
 }
 
 .cspio h1#cspio-logo-text {
-  font-family: "futura-bold", Helvetica, Arial, sans-serif;
+  font-family: "futura-medium", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   display:inline-block;
   position: relative;
@@ -232,7 +232,7 @@ html {
 }
 
 .cspio h1#cspio-logo-text span.italic{
-  font-family: "futura-bold-italic", Helvetica, Arial, sans-serif;
+  font-family: "futura-medium-italic", Helvetica, Arial, sans-serif;
   color: #fff;
   font-style: italic;
 }
