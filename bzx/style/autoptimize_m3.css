@@ -21712,8 +21712,7 @@ slide {
 				border-bottom-color: #060f59
 			}
 			.io-lobelia .section-bg {
-				/*background-color: #44344F*/
-				background-color: #005489
+				background-color: #44344F
 			}
 			.io-lobelia .section-bg .countdown-box {
 				/* background: #091784;*/
@@ -29403,8 +29402,11 @@ slide {
 					background-size: cover;
 				}
 
-				.navbar-brand img.logo{
-					content: '';
+				.io-lobelia .section-bg {
+					background-color: #005489 !important;
+				}
+				.io-lobelia .site-header.has-fixed .navbar {
+					background: #24283a!important;
 				}
 
 				.bg-grey {
