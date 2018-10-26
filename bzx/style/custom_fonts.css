@@ -1,3 +1,4 @@
+/* futura */
 @font-face {
   font-family: 'futura-medium';
   src: url('../fonts/futura-medium.ttf') format('truetype');
@@ -42,4 +43,11 @@
 @font-face {
   font-family: 'evolve-sans-bold';
   src: url('../fonts/evolve-sans-bold.otf');
+}
+
+/* aldrich-regular */
+
+@font-face {
+  font-family: 'aldrich-regular';
+  src: url('../fonts/aldrich-regular.ttf');
 }
