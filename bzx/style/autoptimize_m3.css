@@ -29366,7 +29366,8 @@ slide {
 				  color: #fff
 				}
 
-				.navbar-brand h1#cspio-logo-text span.italic{
+				.navbar-brand h1#cspio-logo-text span.italic,
+				.navbar-brand h1#cspio-logo2-text span.italic{
 				  font-family: "evolve-sans-italic", Helvetica, Arial, sans-serif;
 				  color: #fff;
 				  font-style: italic;
@@ -29403,7 +29404,8 @@ slide {
 				}
 
 				.io-lobelia .section-bg {
-					background-color: #005489 !important;
+					/* 005489 */
+					background-color: #24283a !important;
 				}
 				.io-lobelia .site-header.has-fixed .navbar {
 					background: #24283a!important;
@@ -29434,4 +29436,18 @@ slide {
 				}
 				.io-lobelia .menu-link.orphan-link.btn.btn-outline::after {
 					background: #020207;
+				}
+
+				.features-icon-s2 {
+				    position: relative;
+						background: linear-gradient(to right, #24283a 0%, #000 100%);
+				}
+				.features-icon-s2 img {
+					position: absolute;
+			  	top: 50%;
+			  	left: 50%;
+			  	width: 80%;
+			  	height: 80%;
+			  	margin-top: -40%; /* Half the height */
+			  	margin-left: -40%; /* Half the width */
 				}
