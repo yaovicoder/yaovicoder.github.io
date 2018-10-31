@@ -29304,9 +29304,6 @@ slide {
 				 * custom yaovi coder
 				 */
 
-
-				.no-bg-color{background-color: transparent !important;}
-
 				#wrapper {
 					position: relative;
 					width: 100%;
@@ -29500,5 +29497,42 @@ slide {
 				.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-tabs-list::after,
 				.theme-light .blog-meta li::after {
 				  background: #baff29;
+				}
+				.contact-info li .fa,
+				.contact-info li .fab,
+				.contact-info li .fas {
+					background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+					background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+					font-size: 0;
+					line-height: 38px;
+					height: 38px;
+					width: 38px;
+					text-align: center;
+					color: #fff;
+					border-radius: 50%;
+					display: block
+					margin-left: auto;
+					margin-right: auto;
+					margin-left: auto;
+				}
 
+				#cd-cryptic-timeline,
+				#cd-cryptic-timeline .cd-date,
+				#cd-cryptic-timeline h3.timeline_item_title {
+					font-family: "aldrich-regular", "futura-medium", "Poppins", sans-serif;
+				}
+				#cd-cryptic-timeline p{
+					font-family: "futura-medium", "Poppins", sans-serif;
+					color: #000
+				}
+				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fa,
+				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fab,
+				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fas{
+					position: absolute;
+			    text-align: center;
+			    font-size: 35px;
+			    display: inline-block;
+			    z-index: 3;
+			    top: 13px;
+			    left: 13px;
 				}
