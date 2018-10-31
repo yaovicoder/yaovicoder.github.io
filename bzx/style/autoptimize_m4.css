@@ -29525,14 +29525,23 @@ slide {
 					font-family: "futura-medium", "Poppins", sans-serif;
 					color: #000
 				}
+				#cd-cryptic-timeline .cd-timeline-img.cd-picture {
+						display:table;
+				    position: relative;
+				}
+
+				/* #cd-cryptic-timeline .cd-timeline-img.cd-picture span {
+					display:table-cell;
+ 					vertical-align:middle;
+					text-align: center;
+				} */
+
 				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fa,
 				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fab,
 				#cd-cryptic-timeline .cd-timeline-img.cd-picture .fas{
-					position: absolute;
-			    text-align: center;
-			    font-size: 35px;
-			    display: inline-block;
+
 			    z-index: 3;
-			    top: 13px;
-			    left: 13px;
+					display:table-cell;
+ 					vertical-align:middle;
+					text-align: center;
 				}
