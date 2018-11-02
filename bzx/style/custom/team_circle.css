@@ -86,7 +86,9 @@
 .team-circle .team-photo:before {
   opacity: 1;
   transform: translateX(-50%) scale(1);
-  background: linear-gradient(180deg, #8ad100 0%, #baff29 100%);
+  /* background: linear-gradient(180deg, #8ad100 0%, #baff29 100%); */
+  background: linear-gradient(180deg, #589eb9 0%, #7dc1dd 100%);
+
 }
 
 .team-circle .team-title {
