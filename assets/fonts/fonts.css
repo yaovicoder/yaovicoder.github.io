@@ -1,0 +1,44 @@
+/* raleway */
+@font-face {
+  font-family: 'raleway-thin';
+  src: url('raleway/thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-light';
+  src: url('raleway/light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-extra-light';
+  src: url('raleway/extra-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('raleway/regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-medium';
+  src: url('raleway/medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-semi-bold';
+  src: url('raleway/semi-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-bold';
+  src: url('raleway/bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raleway-extra-bold';
+  src: url('raleway/extra-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'raleway-heavy';
+  src: url('raleway/heavy.ttf') format('truetype');
+}
+
+/* arizonia */
+@font-face {
+  font-family: 'arizonia';
+  src: url('arizonia/regular.ttf') format('truetype');
+}
