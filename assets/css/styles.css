@@ -2283,3 +2283,9 @@ a.hire-btn:hover{
 .scroll-top {
     background: none repeat scroll 0 0 #4ABCDD;
 }
+.social li a {
+    font-size: 35px;
+    height: 70px;
+    width: 70px;
+    line-height: 69px;
+}
