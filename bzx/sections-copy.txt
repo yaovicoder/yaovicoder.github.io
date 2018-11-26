@@ -1,0 +1,372 @@
+		
+
+                    <div data-animate="fadeInUp" data-delay="0.4"
+                         class="wpb_column vc_column_container vc_col-sm-5 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx-icon_decentralized_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Decentralized</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_fast -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_fast_128x128.png"/>
+                                        <!-- <span class="icon-bzx_fast fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Fast Transactions</h5>
+                                        <p>BitcoinZero transactions are fast (2.5 minute block time) .</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_privacy -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_privacy_128x128.png"/>
+                                        <!-- <span class="icon-bzx_safety fa-3x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Privacy oriented</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_pow -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_pow_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Proof Of Work</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_3fork -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_3fork_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">First ever Triple Fork!</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-animate="fadeInUp" data-delay="0.4"
+                         class="wpb_column vc_column_container vc_col-sm-6 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- bzx_community -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_community.png"/>
+                                        <!-- <span class="icn-bzx_masternode fa-3x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Synergy</h5>
+                                        <p>Privacy based Bitcoin with MasterNodes (BZnodes). Runing a BZnode requires
+                                            15,000 BZX. </p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_asic_resistant -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_asic_resistant.png" alt="icon">
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Asic Resistant</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_replay_protection -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_replay_protection.png" alt="icon">
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Replay Protection</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_secure2 -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_secure2_128x128.png"/>
+                                        <!-- <span class="icon-bzx_security fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Ultra Secured</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_browth -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_browth_128x128.png"/>
+                                        <!-- <span class="icon-bzx_security fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Natural Growth</h5>
+                                        <p>BZX is not a Pump&Dump shceme coin. Consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                                                <div class="problem-item d-sm-flex d-block justify-content-center">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey d-block ">
+
+                                                        <!-- Image Map Generated by http://www.image-map.net/ -->
+                                                        <img src="assets/images/misc/bzx_framework_transparent.png"
+                                                             alt="bitcoinzero framework" usemap="#image-map">
+                                                        <map name="image-map">
+                                                            <area id="bzx-framework-user1" data-toggle="modal"
+                                                                  data-target="#frmk-modal-legend" target="" alt="user1"
+                                                                  title="user1" href="#"
+                                                                  coords="1291,1544,1610,1362,1923,1538,1946,1681,1621,1863,1302,1664"
+                                                                  shape="poly">
+                                                            <area target="" alt="user2" title="user2" href="#"
+                                                                  coords="4795,1550,5108,1356,5410,1550,5410,1687,5097,1875,4783,1670"
+                                                                  shape="poly">
+                                                            <area target="" alt="user3" title="user3" href="#"
+                                                                  coords="3336,3533,3672,3721,3661,3880,3353,4040,3034,3846,3023,3709"
+                                                                  shape="poly">
+                                                            <area target="" alt="user4" title="user4" href="#"
+                                                                  coords="5085,3544,5393,3738,5393,3869,5091,4023,4772,3852,4772,3749"
+                                                                  shape="poly">
+                                                            <area target="" alt="user5" title="user5" href="#"
+                                                                  coords="1273,3726,1593,3538,1917,3749,1912,3852,1593,4034,1285,3846"
+                                                                  shape="poly">
+                                                            <area target="" alt="exchange" title="exchange" href="#"
+                                                                  coords="3348,222,3667,405,3701,541,3365,735,3046,530,3051,399"
+                                                                  shape="poly">
+                                                            <area id="bzx-framework-store" target="" alt="store"
+                                                                  title="store" href="#"
+                                                                  coords="3359,1407,3678,1613,3661,1761,3359,1909,3034,1721,3040,1595"
+                                                                  shape="poly">
+                                                        </map>
+
+                                                        <script type="text/javascript" src="assets/lib/jquery-image-map-js/dist/image-map.js"></script>
+
+                                                        <!-- Button trigger modal -->
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-toggle="modal" data-target="#frmk-modal-legend">
+                                                            Workflow Details
+                                                        </button>
+
+                                                        <!-- Modal -->
+                                                        <div class="modal fade legend" data-backdrop=""
+                                                             id="frmk-modal-legend" tabindex="-1" role="dialog"
+                                                             aria-labelledby="frmk-modal-legendLabel"
+                                                             aria-hidden="true">
+                                                            <div class="modal-dialog  modal-lg" role="document">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-body">
+                                                                        <div data-animate="fadeInUp" data-delay="0.4"
+                                                                             class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                                                                             style="visibility: visible; animation-delay: 0.4s;">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                                        <div class="vc_column-inner ">
+                                                                                            <div class="wpb_wrapper">
+
+                                                                                                <!-- User1 -->
+                                                                                                <div class="problem-item d-sm-flex d-block">
+                                                                                                    <div class="problem-icon">
+                                                                                                        <img src="icon-investors.png"
+                                                                                                             alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="problem-info">
+                                                                                                        <h5 class="problem-title">
+                                                                                                            User 1</h5>
+                                                                                                        <p></p>
+                                                                                                        <ul>
+                                                                                                            <li>
+                                                                                                                Purchases
+                                                                                                                Bitcoin
+                                                                                                                Zero off
+                                                                                                                the
+                                                                                                                exchange
+                                                                                                            </li>
+                                                                                                            <li>Sends
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                User 2
+                                                                                                                via
+                                                                                                                Zerocoin
+                                                                                                                third
+                                                                                                                party
+                                                                                                                spend
+                                                                                                            </li>
+                                                                                                            <li>Sends
+                                                                                                                normal
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                User 3
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        <p></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!-- User 2 -->
+                                                                                                <div class="problem-item d-sm-flex d-block">
+                                                                                                    <div class="problem-icon">
+                                                                                                        <img src="icon-investors.png"
+                                                                                                             alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="problem-info">
+                                                                                                        <h5 class="problem-title">
+                                                                                                            User 2</h5>
+                                                                                                        <p></p>
+                                                                                                        <ul>
+                                                                                                            <li>Sends
+                                                                                                                normal
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                the
+                                                                                                                exchange
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        <p></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!-- User 5 -->
+                                                                                                <div class="problem-item d-sm-flex d-block">
+                                                                                                    <div class="problem-icon">
+                                                                                                        <img src="icon-investors.png"
+                                                                                                             alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="problem-info">
+                                                                                                        <h5 class="problem-title">
+                                                                                                            User 5</h5>
+                                                                                                        <p></p>
+                                                                                                        <ul>
+                                                                                                            <li>Cleans
+                                                                                                                Bitcoin
+                                                                                                                Zero by
+                                                                                                                minting
+                                                                                                                to
+                                                                                                                Zerocoin
+                                                                                                                then
+                                                                                                                spends
+                                                                                                                back to
+                                                                                                                him/herself
+                                                                                                                again
+                                                                                                                via
+                                                                                                                third
+                                                                                                                party
+                                                                                                                spend
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        <p></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                                        <div class="vc_column-inner ">
+                                                                                            <div class="wpb_wrapper">
+
+                                                                                                <!-- User 3 -->
+                                                                                                <div class="problem-item d-sm-flex d-block">
+                                                                                                    <div class="problem-icon">
+                                                                                                        <img src="icon-investors.png"
+                                                                                                             alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="problem-info">
+                                                                                                        <h5 class="problem-title">
+                                                                                                            User 3</h5>
+                                                                                                        <p></p>
+                                                                                                        <ul>
+                                                                                                            <li>Sends
+                                                                                                                normal
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                user 4
+                                                                                                            </li>
+                                                                                                            <li>Pays for
+                                                                                                                goods at
+                                                                                                                store
+                                                                                                                with
+                                                                                                                Bitcoin
+                                                                                                                Zero via
+                                                                                                                Zerocoin
+                                                                                                                third
+                                                                                                                party
+                                                                                                                spend
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        <p></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!-- User 4 -->
+                                                                                                <div class="problem-item d-sm-flex d-block">
+                                                                                                    <div class="problem-icon">
+                                                                                                        <img src="icon-investors.png"
+                                                                                                             alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="problem-info">
+                                                                                                        <h5 class="problem-title">
+                                                                                                            User 4</h5>
+                                                                                                        <p></p>
+                                                                                                        <ul>
+                                                                                                            <li>Sends
+                                                                                                                normal
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                User 5
+                                                                                                            </li>
+                                                                                                            <li>Sends
+                                                                                                                Bitcoin
+                                                                                                                Zero to
+                                                                                                                exchange
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                        <p></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary"
+                                                                                data-dismiss="modal">Close
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
