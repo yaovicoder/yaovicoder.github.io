@@ -1,0 +1,2120 @@
+<!DOCTYPE html>
+<html lang="en-US" class=" js_active  vc_desktop  vc_transform  vc_transform ">
+<script src="./ps.min.js" type="text/javascript" defer="">
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>BitcoinZero – an improved version of Bitcoin with additional features including Zerocoin protocol, faster
+        blocktime, and masternodes (BZnodes).</title>
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="http://s.w.org/">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+
+    <link type="text/css" media="all" href="assets/css/twbootstrap.vendor.light.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/autoptimize_6d4ae2015d49dc77ac9ec9fa0f3fb928.css"
+          rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/t10/m10.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/lungwort.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/theme.css" rel="stylesheet">
+    <link type="text/css" media="all" href="style/custom/team_circle.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/lib/curvytimeline/curvy.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="stylesheet" id="icos-fonts-css" href="css" type="text/css" media="all">
+    <link rel="stylesheet" href="img/icons/svg/icomoon/style.css" media="all"><!-- latofonts -->
+    <link rel="stylesheet" href="assets/fonts/lato/latofonts.css" type="text/css" media="all"><!-- latofonts -->
+    <link rel="stylesheet" href="assets/css/fonts.css" type="text/css" media="all">
+
+    <!-- <script type="text/javascript" src="jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css"
+          href="#/icos-lobelia/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <link rel="icon" href="favicon/icon-36.png" sizes="32x32">
+    <link rel="icon" href="favicon/icon-192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="favicon/icon-36.png">
+    <meta name="msapplication-TileImage" content="favicon/icon-36.png">
+
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="home page-template page-template-page-templates page-template-template-onepage page-template-page-templates template-onepage-php page page-id-285 wpb-js-composer js-comp-ver-5.4.7 vc_responsive io-lobelia icos-theme-ver-1.2 wordpress-version-4.9.8  no-touch loaded"
+      data-spy="scroll" data-target="#mainnav" data-offset="80">
+
+<div id="wrapper">
+    <div id="content">
+        <!-- Header -->
+        <header class="site-header is-sticky">
+            <!-- Navbar -->
+            <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+                <nav class="container">
+
+                    <h1 class="navbar-brand">
+                        <a href="#">
+                            <div id="cspio-logo-container">
+                                <img class="logo" src="assets/images/bzx_icon_flat_white_96.png"
+                                     alt="BZX - BitcoinZero Logo Light">
+                                <h1 id="cspio-logo-text">Bitcoin<span class="italic">Zero</span></h1>
+                            </div>
+
+                            <div id="cspio-logo2-container">
+                                <img class="logo2" src="assets/images/bzx_logo_dark_96.png"
+                                     alt="BZX - BitcoinZero Logo Dark">
+                                <h1 id="cspio-logo-text">Bitcoin<span class="italic">Zero</span></h1>
+                            </div>
+                        </a>
+                    </h1>
+
+                    <button class="navbar-toggler" type="button">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+              </span>
+                    </button>
+
+                    <div class="navbar-collapse justify-content-end">
+                        <ul id="menu-onepage-menu" class="navbar-nav menu-top">
+                            <li id="menu-item-530"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-530">
+                                <a href="#" class="nav-link active">About BZX</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#tech">Tech</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#bzx_roadmap">Roadmap</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#whitepaper">Whitepaper</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#github">Github</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-550"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a
+                                    href="#team" class="nav-link">Team</a></li>
+                            <li id="menu-item-570"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a
+                                    href="#partners" class="nav-link">Partners</a></li>
+                            <li id="menu-item-590"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a
+                                    href="#blog" class="nav-link">Blog</a></li>
+                            <li id="menu-item-610"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a
+                                    target="_blank" href="https://chainz.cryptoid.info/bzx/" class="nav-link">Block
+                                Explorer</a></li>
+                            <li id="menu-item-630"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-536">
+                                <a href="#media" class="nav-link">Social</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#twitter">Twitter</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#discord">Discord</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#instagram">Instagram</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#reddit">Reddit</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#bitcointalk">BitcoinTalk</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#telegram">Telegram</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#telegramann">Telegram Ann</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-650"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-536">
+                                <a href="#media" class="nav-link">More</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#mining_guide">Mining Guide</a></li>
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#media">Media Partners</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#branding">Branding</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#faqs">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-670"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a
+                                    href="#contact" class="nav-link">Contact</a></li>
+
+                        </ul>
+                        <ul class="navbar-nav navbar-btns">
+                            <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link orphan-link"
+                                                    href="#whitepaper">whitepaper</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+            <!-- End Navbar -->
+        </header>
+        <!-- End Header -->
+
+
+        <!-- banner-content -->
+        <section
+                class="vc_rows wpb_row vc_row-fluid mobile-center banner-particle banner-curb vc_row-o-equal-height vc_row-o-content-middle vc_row-flex banner banner-full d-flex align-items-center">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="row">
+                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-1 vc_col-md-10">
+                            <div class="vc_column-inner ">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <div class="header-image-lobelia animated fadeInUp" data-animate="fadeInUp"
+                                                 data-delay="0.65" style="visibility: visible; animation-delay: 0.65s;">
+                                                <img class="" src="assets/images/bzx_icon_flat_white.png" alt=""></div>
+                                            <!-- <span class="cell-display">&nbsp;</span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8">
+                            <div class="vc_column-inner ">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element  vc_custom_1529897547203 text-center header-txt">
+                                        <div class="wpb_wrapper">
+                                            <h1 class="animated fadeInUp" data-animate="fadeInUp" data-delay="0.95"
+                                                style="visibility: visible; animation-delay: 0.95s;">
+                                                Anonymity and Privacy Blockchain
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- big-icons -->
+        <section
+                class="big-icons bg-navy-dark vc_rows wpb_row vc_row-fluid mobile-center vc_row-o-equal-height vc_row-o-content-middle vc_row-flex d-flex align-items-center">
+            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="vc_col-sm-3">
+                            <img class="" src="assets/images/icons/big/rounded/bzx_blazing_fast.png"
+                                 alt="BitcoinZeroX Fast Icon">
+                            <div class="features-texts-s2">
+                                <h5 class="features-title-s2">Blazing Fast</h5>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-3">
+                            <!-- <img class="" src="assets/images/bzx_anonymous2.png" alt=""> -->
+                            <img class="" src="assets/images/icons/big/rounded/bzx_anonymous.png"
+                                 alt="BitcoinZeroX Anonymous Icon">
+
+                            <div class="features-texts-s2">
+                                <h5 class="features-title-s2">Anonymous</h5>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-3">
+                            <img class="" src="assets/images/icons/big/rounded/bzx_secure.png"
+                                 alt="BitcoinZeroX Secured Icon">
+                            <div class="features-texts-s2">
+                                <h5 class="features-title-s2">Secured</h5>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-3">
+                            <img class="" src="assets/images/icons/big/rounded/bzx_masternodes.png"
+                                 alt="BitcoinZeroX Masternodes Icon">
+                            <div class="features-texts-s2">
+                                <h5 class="features-title-s2">Masternodes</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+
+        <!-- intro -->
+        <section id="intro"
+                 class="section-bg-alt no-bg-color section-pad-sm vc_rows wpb_row vc_row-fluid section-pad-sm nopb vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+            <div class="container">
+                <div class="row">
+                    <div data-animate="fadeInUp" data-delay="0.1"
+                         class="res-m-bttm wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.1s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="video-box-s2">
+
+                                    <iframe width="540" height="330" src="https://www.youtube.com/embed/q5ZAjM1XBAs"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                    </iframe>
+
+                                    <!--<img src="http://wpdemo.oceanthemes.net/icos-lobelia/wp-content/uploads/sites/25/2018/06/video-cover.jpg"
+                                         alt="cover">
+                                    <a href="https://www.youtube.com/watch?v=q5ZAjM1XBAs"
+                                       class="play-btn-s2 video-play">
+                                        <em class="play-icon"><span></span></em>
+                                    </a>-->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-1 vc_col-md-5 vc_col-sm-offset-0">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element  vc_custom_1529897707202">
+                                    <div class="wpb_wrapper">
+                                        <h2 class="animated fadeInUp" data-animate="fadeInUp" data-delay=".2"
+                                            style="visibility: visible; animation-delay: 0.2s;">We build a whole
+                                            Ecosystem.</h2>
+                                        <p class="lead animated fadeInUp text-justify" data-animate="fadeInUp"
+                                           data-delay=".3"
+                                           style="visibility: visible; animation-delay: 0.3s;">
+                                            The goal of BitcoinZero is the creation of a blockchain ecosystem targeted
+                                            at real world applications, addressing the most poignant issues of the
+                                            ecosystem and providing the “right solution”.<br/>
+                                            Block by block we are building a complete blockchain ecosystem and We
+                                            are getting closer to this goal every day.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <section id="bzx_what_is_it"
+                 class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp" data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        About BitcoinZero
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        What is BZX?</h2>
+                                                </div>
+
+
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp" data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            BitcoinZero is an improved version of Bitcoin with
+                                                            additional features including Zerocoin protocol, faster
+                                                            blocktime, and masternodes (BZnodes).</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-animate="fadeInUp" data-delay="0.3"
+                         class="wpb_column vc_column_container vc_col-sm-6 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx-icon_decentralized_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Decentralized</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_fast -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_fast_128x128.png"/>
+                                        <!-- <span class="icon-bzx_fast fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Fast Transactions</h5>
+                                        <p>BitcoinZero transactions are fast (2.5 minute block time) .</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_privacy -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_privacy_128x128.png"/>
+                                        <!-- <span class="icon-bzx_safety fa-3x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Privacy oriented</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_pow -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_pow_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Proof Of Work</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_3fork -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_3fork_128x128.png"/>
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">First ever Triple Fork!</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-animate="fadeInUp" data-delay="0.4"
+                         class="wpb_column vc_column_container vc_col-sm-6 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- bzx_community -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_community.png"/>
+                                        <!-- <span class="icn-bzx_masternode fa-3x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Synergy</h5>
+                                        <p>Privacy based Bitcoin with MasterNodes (BZnodes). Runing a BZnode requires
+                                            15,000 BZX. </p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_asic_resistant -->
+                                <div class="features-item-s2 d-flex line">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_asic_resistant.png" alt="icon">
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Asic Resistant</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_replay_protection -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/big/bzx_replay_protection.png" alt="icon">
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Replay Protection</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_secure2 -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_secure2_128x128.png"/>
+                                        <!-- <span class="icon-bzx_security fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Ultra Secured</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- bzx_browth -->
+                                <div class="features-item-s2 d-flex ">
+                                    <div class="features-icon-s2">
+                                        <img src="assets/images/icons/bzx_browth_128x128.png"/>
+                                        <!-- <span class="icon-bzx_security fa-2x"></span> -->
+                                    </div>
+                                    <div class="features-texts-s2">
+                                        <h5 class="features-title-s2">Natural Growth</h5>
+                                        <p>BZX is not a Pump&Dump shceme coin. Consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+
+        <!-- bzx_eco_frmwk -->
+        <section id="bzx_eco_frmwk"
+                 class="vc_rows wpb_row vc_row-fluid section-pad-sm bg-navy-dark vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Ecosystem
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Bitcoin Zero’s Eco Framework</h2>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp"
+                                                           data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            Our goal is the creation of a blockchain
+                                                            ecosystem targeted at real world applications.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-animate="fadeInUp" data-delay="0.3"
+                         class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                         style="visibility: visible; animation-delay: 0.3s;">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1529488984202">
+                                    <div data-animate="fadeInUp" data-delay="0.4"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                                         style="visibility: visible; animation-delay: 0.4s;">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center">
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                            <img src="assets/images/misc/bzx_ecosystem_transparent.png"
+                                                                 class="vc_single_image-img attachment-full"
+                                                                 alt="bzx ecosystem image"/>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- zerocoin_protocol -->
+        <section id="zerocoin_protocol" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Privacy
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        ZEROCOIN PROTOCOL</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- section-head end -->
+
+
+                                <div class="wpb_text_column wpb_content_element  vc_custom_1529484340973 text-center">
+                                    <div class="wpb_wrapper">
+                                        <p>&nbsp;</p>
+
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                    <div class="res-m-btm wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-1 vc_col-md-5">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper text-center">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey countdown-box no-bg-color">
+                                                    <img src="assets/images/misc/bzx_miniting_zerocoin_transparent.png"
+                                                         class="vc_single_image-img attachment-full"
+                                                         alt="bzx miniting zerocoin "/>
+                                                </div>
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                        data-target="#zc-protocol-modal">
+                                                    Click to Enlarge
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-last order-lg-first wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="text-block">
+                                                            <p class="text-justify">
+                                                                What sets Bitcoin Zero apart from the rest of the
+                                                                privacy forks that have forked with bitcoins blockchain
+                                                                is that the user has the option to use their coins like
+                                                                a normal cryptocurrency or if they want complete
+                                                                anonymity, it is possible by what is known as ‘minting’
+                                                                which creates a new Zerocoin that takes the place of the
+                                                                Bitcoin Zero which is burned in the process to achieve
+                                                                complete anonymity. What happens then is that
+                                                                these Zerocoin’s can be transferred to another
+                                                                destination via a process called third party spend or
+                                                                even as simple as back to the user themselves
+                                                                anonymously which creates a new fresh Bitcoin Zero that
+                                                                is free from
+                                                                any strings that may be attached to it which is all
+                                                                uniquely compiled in the core wallet itself and stays
+                                                                completely anonymous on the Bitcoin Zero blockchain.
+                                                                This main feature alone brings anonymity to Bitcoin Zero
+                                                                itself when needed instead of everything being so open
+                                                                to view via the public ledger like it is currently.
+                                                            </p>
+                                                            <p class="text-justify">
+                                                                The third party spend mentioned above is a process where
+                                                                the user chooses where to ‘spend’ the current Zerocoin
+                                                                which transitions into newly minted Bitcoin Zero prior
+                                                                to the coin(s) reaching the targeted destination
+                                                                which creates an extra layer of privacy for the user and
+                                                                receiver alike.
+                                                            </p>
+                                                            <p class="animated fadeInUp nomb text-justify"
+                                                               data-animate="fadeInUp"
+                                                               data-delay=".3"
+                                                               style="visibility: visible; animation-delay: 0.3s;">
+                                                                Watch this video for more informations about Zerocoin.
+                                                            </p>
+                                                            <ul class=" btns no-space animated fadeInUp"
+                                                                data-animate="fadeInUp"
+                                                                data-delay="0.85"
+                                                                style="visibility: visible; animation-delay: 0.85s;">
+                                                                <li>
+                                                                    <a class="btn btn-icon-s2 video-play"
+                                                                       href="https://youtu.be/5pNrrUFCrKw">
+                                                                        <i class="ti fas fa-3x fa-play-circle"></i>
+                                                                        Click to play!</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade legend" data-backdrop=""
+                 id="zc-protocol-modal" tabindex="-1" role="dialog"
+                 aria-labelledby="frmk-modal-legendLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog  modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body bg-navy-dark">
+                            <div data-animate="fadeInUp" data-delay="0.4"
+                                 class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                                 style="visibility: visible; animation-delay: 0.4s;">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <img src="assets/images/misc/bzx_miniting_zerocoin_transparent.png"
+                                             class="vc_single_image-img attachment-full" alt="bzx miniting zerocoin "/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer  bg-navy-dark">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- livestats -->
+        <section id="livestats" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg ">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Live Stats
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Statistics</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- section-head end -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                                         style="visibility: visible; animation-delay: 0.2s;">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row" style="margin: 0 -30px 0 -30px" id="ticker-panels">
+
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_col-lg-6" style="padding:0">
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">BTC price&nbsp;<a
+                                                                            href="#trading-warning"
+                                                                            class="glyphicon glyphicon-asterisk"
+                                                                            style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body"><span><a
+                                                                            href="https://coinmarketcap.com/currencies/bitcoin-zero/#markets"
+                                                                            id="ticker" target="_blank"
+                                                                            rel="noopener">---</a></span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">USD price&nbsp;<a
+                                                                            href="#trading-warning"
+                                                                            class="glyphicon glyphicon-asterisk"
+                                                                            style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body"><span
+                                                                            id="tickerUSD">$0.022</span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">
+                                                                        Market&nbsp;Cap&nbsp;<a href="#trading-warning"
+                                                                                                class="glyphicon glyphicon-asterisk"
+                                                                                                style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body"><span>
+                                        <a href="https://coinmarketcap.com/currencies/bitcoin-zero/" id="marketCap"
+                                           target="_blank" rel="noopener">$1.17&nbsp;M</a>
+                                      </span></center>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vc_col-lg-6" style="padding:0">
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+
+                                                                    <center class="panel-heading">Hashrate</center>
+                                                                    <center class="panel-body"><span id="hashrate">1.286 GH/s</span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">Difficulty</center>
+                                                                    <center class="panel-body">
+
+                                                                        <span><a href=""
+                                                                                 onclick="showChart('diff'); return false"
+                                                                                 id="difficulty">44.21 <span
+                                                                                class="glyphicon glyphicon-arrow-down"></span></a></span>
+
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">Outstanding</center>
+                                                                    <center class="panel-body">
+                                      <span>
+                                        <a href="" onclick="showChart('inflation'); return false" id="outstanding">-</a></span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- wpb_wrapper -->
+                        </div><!-- vc_column-inner -->
+                    </div><!-- wpb_column -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section>
+
+        <!-- technical_details -->
+        <section id="technical_details" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Privacy
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Technical Details</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- section-head end -->
+
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="roadmap">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey d-block justify-content-center">
+                                                        <img width="867" height="1032" src="img/bzx_comparison.png"
+                                                             class="vc_single_image-img attachment-full mx-auto d-block"
+                                                             alt=""/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- documents -->
+        <section id="documents" class="vc_rows wpb_row vc_row-fluid section-pad-sm bg-navy-dark">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Download Documents
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Read Our Documents
+                                                    </h2>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp"
+                                                           data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            Here is our full documents that help you to understand
+                                                            Bitcoinzero's ecosystem, what we did so far and what we want
+                                                            to achieve in future.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                                <!-- section-head end -->
+
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row">
+                                                    <div class="col-lg-5 res-m-bttm">
+                                                        <div class="document-img-s3 animated fadeInUp"
+                                                             data-animate="fadeInUp" data-delay=".1"
+                                                             style="visibility: visible; animation-delay: 0.1s;">
+                                                            <img class="filter-grey"
+                                                                 src="assets/images/icons/bzx-icon_scanner-nobg.png"
+                                                                 alt="documents"></div>
+                                                    </div><!-- .col -->
+                                                    <div class="col-lg-7 text-center text-lg-left">
+                                                        <div class="section-head-s7">
+                                                            <p class="animated fadeInUp" data-animate="fadeInUp"
+                                                               data-delay=".3"
+                                                               style="visibility: visible; animation-delay: 0.3s;">
+                                                                &nbsp;</p>
+                                                        </div>
+                                                        <ul class="document-list">
+                                                            <li id="whitepaper" class="animated fadeInUp"
+                                                                data-animate="fadeInUp" data-delay=".4"
+                                                                style="visibility: visible; animation-delay: 0.4s;">
+                                                                <a href="#" class="btn btn-outline btn-dropdown"
+                                                                   data-toggle="dropdown">White Paper <i
+                                                                        class="fas fa-caret-down"></i></a>
+                                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                                    <li><a href="#">English</a></li>
+                                                                    <li><a href="#">Spanish</a></li>
+                                                                    <li><a href="#">Dutch</a></li>
+                                                                    <li><a href="#">French</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li id="masternode_guide" class="animated fadeInUp"
+                                                                data-animate="fadeInUp" data-delay=".5"
+                                                                style="visibility: visible; animation-delay: 0.5s;">
+                                                                <a href="#" class="btn btn-outline btn-dropdown"
+                                                                   data-toggle="dropdown">Masternode Guide <i
+                                                                        class="fas fa-caret-down"></i></a>
+                                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                                    <li>
+                                                                        <a target="_blank"
+                                                                           href="https://ddl.bitcoinzerox.net/files/en/bzx_mining_guide_en.pdf">English
+                                                                            [Windows]</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a target="_blank"
+                                                                           href="https://ddl.bitcoinzerox.net/files/en/bzx_mining_guide_mac_en.pdf">English
+                                                                            [Mac]</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li id="mining_guide" class="animated fadeInUp"
+                                                                data-animate="fadeInUp" data-delay=".5"
+                                                                style="visibility: visible; animation-delay: 0.5s;">
+                                                                <a href="#" class="btn btn-outline btn-dropdown"
+                                                                   data-toggle="dropdown">Mining Guide <i
+                                                                        class="fas fa-caret-down"></i></a>
+                                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                                    <li>
+                                                                        <a target="_blank"
+                                                                           href="mining.html">Lyra2z</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- wpb_wrapper -->
+                        </div><!-- vc_column-inner -->
+                    </div><!-- wpb_column -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section>
+
+        <!-- roadmap -->
+        <section id="bzx_roadmap" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Tlemine </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Our Roadmap
+                                                    </h2>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp"
+                                                           data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            We work very hard to accomplish each milestone of our
+                                                            roadmap.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                                <!-- section-head end -->
+
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class=" roadmap-section curvy-timeline" id="roadmap">
+                                                            <div class="timeline-row timeline-row-odd timeline-row-done animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".3"
+                                                                 style="visibility: visible; animation-delay: 0.3s;">
+                                                                <div class="row no-gutters text-left text-lg-center justify-content-center">
+
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item timeline-done"><span
+                                                                                class="timeline-date">2017 Q2</span>
+                                                                            <h6 class="timeline-title">Research</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Strategic Plan</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item timeline-done"><span
+                                                                                class="timeline-date">2018, Aug 1st</span>
+                                                                            <h6 class="timeline-title">Coin Genesis</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Triple Fork</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                </div><!-- .row -->
+                                                            </div><!-- .timeline-row -->
+                                                            <div class="timeline-row timeline-row-even animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".4"
+                                                                 style="visibility: visible; animation-delay: 0.4s;">
+                                                                <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item timeline-current">
+                                                                            <span class="timeline-date">2018 Q3</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Impoving ZeroCoin protocol Fork</li>
+                                                                                <li>Team additions</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">December 1st, 2018</span>
+                                                                            <h6 class="timeline-title">Coin burns</h6>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2018 Q4</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>New Whitepaper</li>
+                                                                                <li>Exchange Listings</li>
+                                                                                <li>Partnerships</li>
+                                                                                <li>Website Redesign</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2019 Q1</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Partnerships</li>
+                                                                                <li>Voting Pool</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                </div><!-- .row -->
+                                                            </div><!-- .timeline-row -->
+                                                            <div class="timeline-row timeline-row-odd timeline-row-last mb--x5 animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".5"
+                                                                 style="visibility: visible; animation-delay: 0.5s;">
+                                                                <div class="row no-gutters text-left text-lg-center justify-content-center">
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2019 Q2</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Web wallet Redisign</li>
+                                                                                <li>Exchange Listing</li>
+                                                                                <li>Lightening Network</li>
+                                                                                <li>Atomic Swap</li>
+                                                                                <li>Partnerships</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2019 Q3</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Payment Gateway</li>
+                                                                                <li>Social Wallets</li>
+                                                                                <li>Major Exchange Listing</li>
+                                                                                <li>Partnerships</li>
+                                                                                <li>Cold Wallet Compatibility</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2019 Q4</span>
+                                                                            <h6 class="timeline-title">Mobile
+                                                                                Application</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Android Wallet release</li>
+                                                                                <li>IOS Wallet release</li>
+                                                                                <li>Wallet Update</li>
+                                                                                <li>Mobile Messaging</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                    <div class="col-lg">
+                                                                        <div class="timeline-item"><span
+                                                                                class="timeline-date">2020</span>
+                                                                            <h6 class="timeline-title">#</h6>
+                                                                            <ul class="timeline-info">
+                                                                                <li>Research on next generation privacy
+                                                                                    protocol
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div><!-- .col -->
+                                                                </div><!-- .row -->
+                                                            </div><!-- .timeline-row -->
+                                                            <div class="gaps size-2x d-lg-none"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- team -->
+        <section id="team" class="vc_rows wpb_row vc_row-fluid section-pad-sm no-pb section-bg section-fix">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Meet The Team
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Our great team</h2>
+                                                </div>
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp"
+                                                           data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            Our Team combines highly skilled and passionate members for
+                                                            Blockchain tech, development, design & marketing.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                                <!-- section-head end -->
+
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.1"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/tm_jc.png" alt="team">
+                                                    </div>
+                                                    <h5>Job Crypto</h5>
+                                                    <span>Head – PR & Strategy</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/tm_bzxc.png" alt="team">
+                                                    </div>
+                                                    <h5>BZXception</h5>
+                                                    <span>Excecutive Director</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.3"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/tm_gm.png" alt="team">
+                                                    </div>
+                                                    <h5>Guido Morpheus</h5>
+                                                    <span>Project Manager</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.4"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_shaun.png" alt="team">
+                                                    </div>
+                                                    <h5>Shaun Connolly </h5>
+                                                    <span>Tech Developer</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.5"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/tm_sh.png" alt="team">
+                                                    </div>
+                                                    <h5>Shiner</h5>
+                                                    <span>Tech Developer</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.6"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_travis.png" alt="team">
+                                                    </div>
+                                                    <h5>Travis</h5>
+                                                    <span>Developer</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.7"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_mark.png" alt="team">
+                                                    </div>
+                                                    <h5>Mark</h5>
+                                                    <span>Blockchain Technical Strategist</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-animate="fadeInUp" data-delay="0.8"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/tm_cw.jpg" alt="team">
+                                                    </div>
+                                                    <h5>Chris Wallace</h5>
+                                                    <span>Analytical writer</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.9"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_romel.png" alt="team">
+                                                    </div>
+                                                    <h5>Romel</h5>
+                                                    <span>Media Production Lead</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.9"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_bevi.png" alt="team">
+                                                    </div>
+                                                    <h5>BeviLnodes</h5>
+                                                    <span>Community Manager & Marketing</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.6"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_kirk.png" alt="team">
+                                                    </div>
+                                                    <h5>Kirk Azul</h5>
+                                                    <span>Social Media Developer</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.10"
+                                         class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="team-circle team-circle-des">
+                                                    <div class="team-photo team-circle-img">
+                                                        <img src="assets/images/team/bzx_team_rhys.png" alt="team">
+                                                    </div>
+                                                    <h5>Rhys James</h5>
+                                                    <span>Community Manager &amp; Social Media</span>
+                                                    <ul class="team-circle-social">
+                                                        <li><a href="#"><em class="fab fa-linkedin"></em></a></li>
+                                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <section id="partners" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                                        <div class="vc_column-inner ">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="section-head-s6">
+                                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                                        data-animate="fadeInUp"
+                                                                        data-delay=".1"
+                                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                                        Partnerships
+                                                                    </h6>
+                                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                                        data-animate="fadeInUp" data-delay=".2"
+                                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                                        BITCOIN ZERO PARTNERS</h2>
+                                                                </div>
+
+
+                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                                    <div class="wpb_wrapper">
+                                                                        <p class="animated fadeInUp"
+                                                                           data-animate="fadeInUp"
+                                                                           data-delay=".3"
+                                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                                            We are backed by great entities.
+                                                                        </p>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                                        <div class="vc_column-inner ">
+                                                            <div class="wpb_wrapper"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_empty_space" style="height: 50px"><span
+                                                        class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs"
+                                                     style="height: 60px"><span class="vc_empty_space_inner"></span>
+                                                </div>
+
+                                                <div class="partner-list-s2">
+                                                    <div class="row text-center">
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".2"
+                                                                 style="visibility: visible; animation-delay: 0.2s;">
+                                                                <a target="_blank"
+                                                                   href="https://coinmarketcap.com/currencies/bitcoin-zero"
+                                                                   title="partner coinmarketcap">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_coinmarketcap.png"
+                                                                         alt="partner coinmarketcap"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".3"
+                                                                 style="visibility: visible; animation-delay: 0.3s;">
+                                                                <a target="_blank"
+                                                                   href="https://www.coingecko.com/en/price_charts/bitcoin-zero/usd"
+                                                                   title="partner coingecko">
+                                                                    <img class="filter-grey"
+                                                                         src="assets/images/partners/bzx_partners_coingecko.png"
+                                                                         alt="partner coingecko"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".4"
+                                                                 style="visibility: visible; animation-delay: 0.4s;">
+                                                                <a target="_blank"
+                                                                   href="https://coinlib.io/coin/BZX/Bitcoin+Zero"
+                                                                   title="partner coinlib">
+                                                                    <img class="filter-grey"
+                                                                         src="assets/images/partners/bzx_partners_coinlib.png"
+                                                                         alt="partner coinlib"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".5"
+                                                                 style="visibility: visible; animation-delay: 0.5s;">
+                                                                <a target="_blank" href="https://sistemkoin.com"
+                                                                   title="partner sistemkoin">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_sistemkoin.png"
+                                                                         alt="partner sistemkoin"></div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row text-center">
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".2"
+                                                                 style="visibility: visible; animation-delay: 0.2s;">
+                                                                <a target="_blank" href="#" title="Worldcoiindex">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_worldcoiindex.png"
+                                                                         alt="Worldcoiindex partner logo"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".3"
+                                                                 style="visibility: visible; animation-delay: 0.3s;">
+                                                                <a target="_blank" href="#" title="Cryptochartindex">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_cryptochartindex.png"
+                                                                         alt="Cryptochartindex partner logo"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".6"
+                                                                 style="visibility: visible; animation-delay: 0.6s;">
+                                                                <a target="_blank" href="https://gtmcoin.io/ "
+                                                                   title="partner gentarium">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_gentarium.png"
+                                                                         alt="partner gentarium"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".7"
+                                                                 style="visibility: visible; animation-delay: 0.7s;">
+                                                                <a target="_blank" href="https://www.livecoin.net/en"
+                                                                   title="partner livecoin">
+                                                                    <img class="filter-white" class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_livecoin.png"
+                                                                         alt="partner livecoin"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row text-center">
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".4"
+                                                                 style="visibility: visible; animation-delay: 0.4s;">
+                                                                <a target="_blank" href="#" title="coinpaprika">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_coinpaprika.png"
+                                                                         alt="coinpaprika partner logo"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner square animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".6"
+                                                                 style="visibility: visible; animation-delay: 0.6s;">
+                                                                <a target="_blank"
+                                                                   href="https://crex24.com/fr/exchange/BZX-BTC"
+                                                                   title="crex24">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_crex24.png"
+                                                                         alt="crex24 partner logo">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".7"
+                                                                 style="visibility: visible; animation-delay: 0.7s;">
+                                                                <a target="_blank" href="#" title="livecoinwatch">
+                                                                    <img class="filter-white" class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_livecoinwatch.png"
+                                                                         alt="livecoinwatch partner logo"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner rectangle animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".4"
+                                                                 style="visibility: visible; animation-delay: 0.4s;">
+                                                                <a target="_blank" href="#" title="Delta Portfolio">
+                                                                    <img class="filter-grey"
+                                                                         src="assets/images/partners/bzx_partners_delta.png"
+                                                                         alt="Delta Portfolio partner logo">
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row text-center">
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner square animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".3"
+                                                                 style="visibility: visible; animation-delay: 0.3s;">
+                                                                <a target="_blank" href="#" title="coincodex">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_coincodex.png"
+                                                                         alt="coincodex partner logo"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner square animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".4"
+                                                                 style="visibility: visible; animation-delay: 0.4s;">
+                                                                <a target="_blank" href="#" title="coincheckup">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_coincheckup.png"
+                                                                         alt="coincheckup partner logo"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner square animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".6"
+                                                                 style="visibility: visible; animation-delay: 0.6s;">
+                                                                <a target="_blank" href="#" title="nodehost">
+                                                                    <img class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_nodehost.png"
+                                                                         alt="nodehost partner logo">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm col-12">
+                                                            <div class="single-partner square animated fadeInUp"
+                                                                 data-animate="fadeInUp" data-delay=".7"
+                                                                 style="visibility: visible; animation-delay: 0.7s;">
+                                                                <a target="_blank" href="#" title="nodevault">
+                                                                    <img class="filter-grey" class="filter-white"
+                                                                         src="assets/images/partners/bzx_partners_nodevault.png"
+                                                                         alt="nodevault partner logo"/>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row text-center">
+                                                        <div class="col-md-10 offset-md-1">
+                                                            <div class="row">
+                                                                <div class="col-sm col-12">
+                                                                    <div class="single-partner square animated fadeInUp"
+                                                                         data-animate="fadeInUp" data-delay=".5"
+                                                                         style="visibility: visible; animation-delay: 0.5s;">
+                                                                        <a target="_blank" href="#" title="nodestop">
+                                                                            <img class="filter-white"
+                                                                                 src="assets/images/partners/bzx_partners_nodestop.png"
+                                                                                 alt="nodestop partner logo"></div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="col-sm col-12">
+                                                                    <div class="single-partner square animated fadeInUp"
+                                                                         data-animate="fadeInUp" data-delay=".6"
+                                                                         style="visibility: visible; animation-delay: 0.6s;">
+                                                                        <a target="_blank" href="# "
+                                                                           title="coinmarketdaddy">
+                                                                            <img class="filter-grey"
+                                                                                 src="assets/images/partners/bzx_partners_coinmarketdaddy.png"
+                                                                                 alt="coinmarketdaddy partner logo"/>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm col-12">
+                                                                    <div class="single-partner square animated fadeInUp"
+                                                                         data-animate="fadeInUp" data-delay=".6"
+                                                                         style="visibility: visible; animation-delay: 0.6s;">
+                                                                        <a target="_blank"
+                                                                           href="https://www.decentralgear.com/collections/bitcoin-zero"
+                                                                           title="partner decentralgear">
+                                                                            <img class="filter-grey"
+                                                                                 src="assets/images/partners/bzx_partners_decentralgear.png"
+                                                                                 alt="partner decentralgear">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm col-12">
+                                                                    <div class="single-partner square animated fadeInUp"
+                                                                         data-animate="fadeInUp" data-delay=".6"
+                                                                         style="visibility: visible; animation-delay: 0.6s;">
+                                                                        <a target="_blank"
+                                                                           href="https://coinstats.app/liveprices/bitcoin-zero"
+                                                                           title="partner coinstats">
+                                                                            <img class="filter-grey"
+                                                                                 src="assets/images/partners/bzx_partners_coinstats.png"
+                                                                                 alt="partner coinstats">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm col-12">
+                                                                    <div class="single-partner square animated fadeInUp"
+                                                                         data-animate="fadeInUp" data-delay=".6"
+                                                                         style="visibility: visible; animation-delay: 0.6s;">
+                                                                        <a target="_blank"
+                                                                           href="https://walletinvestor.com"
+                                                                           title="partner walletinvestor">
+                                                                            <img class="filter-grey"
+                                                                                 src="assets/images/partners/bzx_partners_walletinvestor.jpg"
+                                                                                 alt="partner walletinvestor">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-4 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center   single-partner">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="350" height="100" src="partner-md-a.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="#/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-a.png 350w, #/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-a-300x86.png 300w"
+                                                                sizes="(max-width: 350px) 100vw, 350px"></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.3"
+                                         class="wpb_column vc_column_container vc_col-sm-4 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center   single-partner">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="350" height="100" src="partner-md-b.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="#/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-b.png 350w, #/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-b-300x86.png 300w"
+                                                                sizes="(max-width: 350px) 100vw, 350px"></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.4"
+                                         class="wpb_column vc_column_container vc_col-sm-4 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center   single-partner">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="350" height="100" src="partner-md-c.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="#/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-c.png 350w, #/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-c-300x86.png 300w"
+                                                                sizes="(max-width: 350px) 100vw, 350px"></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.5"
+                                         class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-offset-2 vc_col-md-4 vc_col-sm-offset-2 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="350" height="100" src="partner-md-d.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="#/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-d.png 350w, #/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-d-300x86.png 300w"
+                                                                sizes="(max-width: 350px) 100vw, 350px"></div>
+                                                    </figure>
+                                                </div>
+                                                <div class="vc_empty_space  vc_hidden-lg vc_hidden-md vc_hidden-sm"
+                                                     style="height: 30px"><span class="vc_empty_space_inner"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-animate="fadeInUp" data-delay="0.6"
+                                         class="wpb_column vc_column_container vc_col-sm-4 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="350" height="100" src="partner-md-e.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="#/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-e.png 350w, #/icos-lobelia/wp-content/uploads/sites/25/2018/03/partner-md-e-300x86.png 300w"
+                                                                sizes="(max-width: 350px) 100vw, 350px"></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <section id="contact" class="vc_rows wpb_row vc_row-fluid section-pad-sm no-pb section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp" data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Contact
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Want to reach us?</h2>
+                                                </div>
+
+
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp" data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            Any question? Reach out to us directly.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 ">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row text-center section-pad-40 no-pb">
+                                                    <ul class="social">
+
+                                                        <li><a class="" target="_blank" href="#"><em
+                                                                class="fab fa-discord"></em></a></li>
+                                                        <li><a target="_blank"
+                                                               href="https://medium.com/@BitcoinZero"><em
+                                                                class="fab fa-medium"></em></a></li>
+                                                        <li><a target="_blank"
+                                                               href="https://twitter.com/BitcoinZer0X"><em
+                                                                class="fab fa-twitter"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em class="fab fa-github"></em></a>
+                                                        </li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fa-instagram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em class="fab fa-bitcoin"></em></a>
+                                                        </li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-telegram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-telegram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-reddit"></em></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <footer class="section footer-section section-pad-sm section-bg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <span class="copyright-text">
+                Copyright © 2018, BitcoinZeroX.<br/>
+                            All trademarks and copyrights belong to their respective owners.
+              </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" id="back-to-top" class="fas fa-arrow-up"></a>
+
+        <!-- Preloader !remove please if you do not want -->
+        <div id="preloader" style="display: none;">
+            <div id="loader" style="display: none;"></div>
+            <div class="loader-section loader-top"></div>
+            <div class="loader-section loader-bottom"></div>
+        </div>
+        <!-- Preloader End -->
+    </div>
+
+    <div id="bground">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    WebFont.load({
+        google: {
+            families: ['Poppins:400,600,500:cyrillic,cyrillic-ext,devanagari,greek,greek-ext,khmer,latin,latin-ext,vietnamese,hebrew,arabic,bengali,gujarati,tamil,telugu,thai']
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var mc4wp_forms_config = [];
+    /* ]]> */
+</script>
+
+<!--[if lte IE 9]>
+<script type='text/javascript'
+        src='#/icos-lobelia/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.2.4'></script>
+<![endif]-->
+
+<script type="text/javascript" defer="" src="autoptimize_05900c327729b2d504e7ef0a9ace7a8d.js"></script>
+<!-- <script src="assets/frst-timeline/frst-timeline.js"></script> -->
+<script>
+    /* JavaScript */
+    ImageMap('img[usemap]', 500);
+
+    /* jQuery */
+    // $('img[usemap]').imageMap(500);
+</script>
+<script type="text/javascript" defer="" src="assets/lib/xplortrim/explorer.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.subhead a').attr('href', 'https://chainz.cryptoid.info/bzx/');
+    })
+</script>
+</body>
+
+</html>
