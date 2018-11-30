@@ -298,7 +298,11 @@ section.banner.banner-full::before {
 .io-lobelia .menu-link.orphan-link.btn.btn-outline::after {
     background: #020207;
 }
+.features-item-s2 {
+    margin-bottom: 16px;
+    min-height: 125px;
 
+}
 .features-icon-s2 {
     height: 90px;
     width: 90px;
