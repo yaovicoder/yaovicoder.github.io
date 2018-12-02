@@ -10,20 +10,67 @@ body {
 .nomb {
     margin-bottom: 0 !important
 }
+
 .section-pad-40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .section-pad-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+/* buttons */
 
+.btn-primary {
+    background: linear-gradient(to right, #000622 0%, #000 100%);
+}
+
+.btn-secondary {
+    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
+    color: #000000;
+    border: 1px solid #fff;
+}
+
+.btn-secondary-borderless {
+    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
+    color: #000000;
+    border: none;
+}
+
+.btn-secondary:hover, .btn-secondary:before {
+    background: linear-gradient(to right, #000622 0%, #000 100%) !important;
+    color: #ffffff !important;
+    border: 1px solid #fff;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #6c9f00 0%, #baff29 100%);
+    /* background: linear-gradient(to right, #000622 0%, #000 100%); */
+}
 .btn::before {
     background: -webkit-linear-gradient(to right, #000622 0%, #000 100%);
     background: linear-gradient(to right, #000622 0%, #000 100%);
 }
+.btn-rectangle{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-sm.btn-rectangle{
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.btn-sm.btn-rectangle::before {
+    border-radius: .2rem;
+    background: #365000;
+}
+
+/* buttons end */
 
 /* .navbar */
 
@@ -146,9 +193,11 @@ section.banner.banner-full::before {
 .section-head-s6 {
     padding-bottom: 20px;
 }
+
 .io-lobelia .heading-sm-s2 {
     color: #baff29;
 }
+
 .heading-sm-s2 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -158,6 +207,7 @@ section.banner.banner-full::before {
     font-size: 0.93em;
 
 }
+
 .heading-sm-s2::before {
     position: absolute;
     left: 0;
@@ -169,6 +219,7 @@ section.banner.banner-full::before {
     background: #16a1ff;
 
 }
+
 .io-lobelia .heading-sm-s2::before {
     background: #baff29;
 }
@@ -298,11 +349,13 @@ section.banner.banner-full::before {
 .io-lobelia .menu-link.orphan-link.btn.btn-outline::after {
     background: #020207;
 }
+
 .features-item-s2 {
     margin-bottom: 16px;
     min-height: 125px;
 
 }
+
 .features-icon-s2 {
     height: 90px;
     width: 90px;
@@ -572,28 +625,6 @@ section#partners .section-head .section-title::before {
 }
 
 /* document end */
-/* buttons */
-.btn-primary {
-    background: linear-gradient(to right, #000622 0%, #000 100%);
-}
-
-.btn-secondary {
-    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
-    color: #000000;
-    border: 1px solid #fff;
-}
-
-.btn-secondary-borderless {
-    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
-    color: #000000;
-    border: none;
-}
-
-.btn-secondary:hover, .btn-secondary:before {
-    background: linear-gradient(to right, #000622 0%, #000 100%) !important;
-    color: #ffffff !important;
-    border: 1px solid #fff;
-}
 
 /* filters  */
 img.filter-grey {
@@ -865,8 +896,58 @@ code.tag {
     width: 50px;
     font-size: 45px;
     line-height: 60px;
+    border-radius: 0;
 }
 
-.social li.hexagon  a {
+.social li a:hover {
+    background: transparent;
     color: #fff;
+}
+
+.social li.hexagon a {
+    color: #fff;
+}
+
+/* section documents */
+
+section#documents {
+}
+
+section#documents .dropdown-menu {
+    color: #fff;
+
+}
+
+section#documents .document-list > li .dropdown-menu li a {
+    display: inline;
+    padding: 0;
+
+}
+
+/* branding page */
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.card-img-box {
+    height: 200px;
+    background: #e1e1e1;
+}
+
+.card-img {
+
+}
+
+.brand-img.square {
+    width: auto;
+    height: 100%;
+}
+
+
+/* custom colors */
+
+.colorize.black {
+    color: #000 !important
 }

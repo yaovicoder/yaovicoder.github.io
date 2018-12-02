@@ -274,6 +274,7 @@ div.countdown::before {
     background: url("img/bzx_burn_red.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     opacity: 0.4;
     top: 0;
     left: 0;

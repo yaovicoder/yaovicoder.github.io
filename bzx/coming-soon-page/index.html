@@ -75,11 +75,11 @@
                 <h3 class="l1-txt1 txt-center p-b-25">
                     Coin Burn
                 </h3>
-                <p class="m2-txt1 txt-center p-b-48">
-                    Will Happpen On December 1st! ...
+                <p id="burn-ann" class="m2-txt1 txt-center p-b-48">
+                   is Successfully Completed On December 1st! ...
                 </p>
 
-                <div class="flex-w flex-c-m cd100 p-b-33">
+                <div id="blockcount" class="flex-w flex-c-m cd100 p-b-33">
                     <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
                             <span class="l2-txt1 p-b-9 seconds ">
                                  <span class="blocks-to-go"></span>
@@ -141,11 +141,18 @@
                     //console.log(data);
                     var getblockcount = data;
                     var blocksToGo = 52000 - getblockcount;
-                    var blocksToGoText = " Blocks to go.";
+                    if (blocksToGo > 0) {
+                        var blocksToGoText = " Blocks to go.";
+                        $(".blocks-to-go").html(
+                            "<span>" + blocksToGo + "</span>"
+                        );
+                    } else {
+                        var blockcount = document.getElementById("blockcount");
+                        blockcount.parentElement.removeChild(blockcount);
 
-                    $(".blocks-to-go").html(
-                        "<span>" + blocksToGo + "</span>"
-                    );
+                        var burnLiveText = " is Happening NOW !";
+                        $('#burn-ann').html(burnLiveText);
+                    }
                 }
             );
         }
