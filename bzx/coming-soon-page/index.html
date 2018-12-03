@@ -69,22 +69,33 @@
         </div>
 
         <!-- countdown  -->
-        <div class="countdown">
+        <div class="countdown no-bg">
             <!--  -->
             <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
                 <h3 class="l1-txt1 txt-center p-b-25">
                     Coin Burn
                 </h3>
                 <p id="burn-ann" class="m2-txt1 txt-center p-b-48">
-                   is Successfully Completed On December 1st! ...
+                    is Successfully Completed On December 1st! ...
                 </p>
 
-                <div id="blockcount" class="flex-w flex-c-m cd100 p-b-33">
+                <!-- <div id="blockcount" class="flex-w flex-c-m cd100 p-b-33">
                     <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
                             <span class="l2-txt1 p-b-9 seconds ">
                                  <span class="blocks-to-go"></span>
                             </span>
                         <span class="s2-txt1">Blocks to Go.</span>
+                    </div>
+                </div>-->
+                <div id="cmc_wrapper" class="flex-w flex-c-m cd100 p-b-33">
+                    <script type="text/javascript"
+                            src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                    <div class="coinmarketcap-currency-widget"
+                         data-currencyid="3497" data-base="USD"
+                         data-secondary="BTC" data-ticker="true"
+                         data-rank="true" data-marketcap="true"
+                         data-volume="true" data-stats="USD"
+                         data-statsticker="false">
                     </div>
                 </div>
             </div>
@@ -157,8 +168,8 @@
             );
         }
 
-        get_data_chainz();
-        setInterval(get_data_chainz, 60000);
+        // get_data_chainz();
+        // setInterval(get_data_chainz, 60000);
 
     })(jQuery);
 </script>

@@ -370,3 +370,159 @@
 
                                                     </div>
                                                 </div>
+
+
+
+
+
+
+        <section id="benefits" class="services-section background-image bg-dark-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2">
+                        <div class="heading-title small-heading center">
+                            <h2 style="opacity: 1;" class="animated fadeInDown">Benefits <span>BitcoinZ</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tabs services-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
+                        <ul class="services-carousel ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header slick-initialized slick-slider" role="tablist">
+                            <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1220px; transform: translate3d(0px, 0px, 0px);" role="listbox"><li class="animated-service anim-shadow animated ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active slick-slide slick-current slick-active fadeIn" style="opacity: 1; width: 305px;" role="option" tabindex="-1" aria-controls="ui-id-2" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true" data-slick-index="0" aria-hidden="false" aria-describedby="slick-slide00">
+                                <a href="#" role="presentation" tabindex="0" class="ui-tabs-anchor" id="ui-id-1">
+                                    <i class="pe-7s-graph"></i>
+                                    <h4>Max Supply</h4>
+                                    <p>21,000,000,000 BTCZ</p>
+                                </a>
+                            </li><li class="animated-service anim-shadow animated ui-tabs-tab ui-corner-top ui-state-default ui-tab slick-slide slick-active fadeIn" style="opacity: 1; width: 305px;" role="option" tabindex="-1" aria-controls="ui-id-4" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false" data-slick-index="1" aria-hidden="false" aria-describedby="slick-slide01">
+                                <a href="#" role="presentation" tabindex="0" class="ui-tabs-anchor" id="ui-id-3">
+                                    <i class="pe-7s-drop"></i>
+                                    <h4>Algorithm</h4>
+                                    <p>Zhash</p>
+                                </a>
+                            </li><li class="animated-service anim-shadow animated ui-tabs-tab ui-corner-top ui-state-default ui-tab slick-slide slick-active fadeIn" style="opacity: 1; width: 305px;" role="option" tabindex="-1" aria-controls="ui-id-6" aria-labelledby="ui-id-5" aria-selected="false" aria-expanded="false" data-slick-index="2" aria-hidden="false" aria-describedby="slick-slide02">
+                                <a href="#" role="presentation" tabindex="0" class="ui-tabs-anchor" id="ui-id-5">
+                                    <i class="pe-7s-timer"></i>
+                                    <h4>Fast Transactions</h4>
+                                    <p>2MB every 2.5 minutes</p>
+                                </a>
+                            </li><li class="animated-service anim-shadow animated ui-tabs-tab ui-corner-top ui-state-default ui-tab slick-slide slick-active fadeIn" style="opacity: 1; width: 305px;" role="option" tabindex="-1" aria-controls="ui-id-8" aria-labelledby="ui-id-7" aria-selected="false" aria-expanded="false" data-slick-index="3" aria-hidden="false" aria-describedby="slick-slide03">
+                                <a href="#" role="presentation" tabindex="0" class="ui-tabs-anchor" id="ui-id-7">
+                                    <i class="pe-7s-map"></i>
+                                    <h4>Circulating Supply</h4>
+                                    <p>12,500 coins every 2.5 minutes</p>
+                                </a>
+                            </li></div></div>
+
+
+
+                        </ul><div id="ui-id-2" aria-live="polite" aria-labelledby="ui-id-1" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="false"></div><div id="ui-id-4" aria-live="polite" aria-labelledby="ui-id-3" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" style="display: none;" aria-hidden="true"></div><div id="ui-id-6" aria-live="polite" aria-labelledby="ui-id-5" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" style="display: none;" aria-hidden="true"></div><div id="ui-id-8" aria-live="polite" aria-labelledby="ui-id-7" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" style="display: none;" aria-hidden="true"></div>
+                        <div id="dots-control-tabs" class="dots-control-carousel"></div>
+
+                        <div id="tabs-1">
+                            <div class="col-md-6">
+                                <div class="head-service small-head text-left">
+                                    <h2>Our goal is to port all best free software on the market to be able to use in BitcoinZ.</h2>
+                                </div>
+                                <p>Immutable params:</p> <p>- max supply </p> <p>- inflation </p> <p>- only POW algo - we may change Zhash algo to other POW algo to prevent ASIC miners </p> <p>- new features are allowed to improve usage / scalability, but we will never change history (ETH/ETC case) </p> </div>
+                            <div class="col-md-5 col-md-push-1">
+                                <ul class="list"> <li>Algo: Zhash (always GPU mining - we promote decentralization in mining) </li> <li>Max supply 21B coins </li> <li>Current supply: 12,500 coins every 2.5 minutes</li> <li>Current block size is similar to BCH (BTCZ = 2MB every 2.5 mins ~ BCH = 8MB every 10 min)</li> </ul> </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="link-full">
+                                <a href="https://bitcointalk.org/index.php?topic=3086664.0" target="_blank">View Bitcointalk Forum Topic<i aria-hidden="true" class="fa fa-angle-right"></i></a>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="https://forum.btcz.rocks" target="_blank">View Forum<i aria-hidden="true" class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- technical_details -->
+        <section id="technical_details" class="vc_rows wpb_row vc_row-fluid section-pad-sm section-bg-alt no-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Privacy
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Technical Details</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- section-head end -->
+
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+
+
+                                                <div class="row text-center">
+                                                    <div class="col-sm col-12">
+                                                        <div class="single-partner rectangle animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">
+                                                            <a target="_blank" href="https://coinmarketcap.com/currencies/bitcoin-zero" title="partner coinmarketcap">
+                                                                <img class="filter-white" src="assets/images/partners/bzx_partners_coinmarketcap.png" alt="partner coinmarketcap">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm col-12">
+                                                        <div class="single-partner rectangle animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">
+                                                            <a target="_blank" href="https://www.coingecko.com/en/price_charts/bitcoin-zero/usd" title="partner coingecko">
+                                                                <img class="filter-grey" src="assets/images/partners/bzx_partners_coingecko.png" alt="partner coingecko"></a></div><a target="_blank" href="https://www.coingecko.com/en/price_charts/bitcoin-zero/usd" title="partner coingecko">
+                                                    </a>
+                                                    </div>
+                                                    <div class="col-sm col-12">
+                                                        <div class="single-partner rectangle animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                                                            <a target="_blank" href="https://coinlib.io/coin/BZX/Bitcoin+Zero" title="partner coinlib">
+                                                                <img class="filter-grey" src="assets/images/partners/bzx_partners_coinlib.png" alt="partner coinlib"></a></div><a target="_blank" href="https://coinlib.io/coin/BZX/Bitcoin+Zero" title="partner coinlib">
+                                                    </a>
+                                                    </div>
+                                                    <div class="col-sm col-12">
+                                                        <div class="single-partner rectangle animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                                                            <a target="_blank" href="https://sistemkoin.com" title="partner sistemkoin">
+                                                                <img class="filter-white" src="assets/images/partners/bzx_partners_sistemkoin.png" alt="partner sistemkoin"></a></div><a target="_blank" href="https://sistemkoin.com" title="partner sistemkoin">
+                                                    </a>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+

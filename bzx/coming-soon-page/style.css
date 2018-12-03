@@ -86,7 +86,7 @@ html {
 }
 
 .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active {
-    color: #ffffff;
+    color: #baff29 !important;
 }
 
 #cspio-socialprofiles a {
@@ -284,6 +284,14 @@ div.countdown::before {
     z-index: -1;
 }
 
+
+div.no-bg{
+    background: none !important;
+}
+div.no-bg::before {
+    background: none !important;
+
+}
 .l2-txt1 {
     font-family: "futura-bold", Lato-Bold, Helvetica, Arial, sans-serif;
 }
