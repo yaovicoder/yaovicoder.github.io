@@ -3,6 +3,9 @@
  *
  * custom yaovi coder
  */
+
+@import "../../fonts/pe-icon/pe-icon.css";
+
 body {
     font-family: LatoWeb, "Poppins", sans-serif;
 }
@@ -958,4 +961,84 @@ section#documents .document-list > li .dropdown-menu li a {
 
 .colorize.black {
     color: #000 !important
+}
+
+
+/* ui-tabs */
+.ui-tabs-tab {
+    border: 1px solid white;
+
+}
+
+
+/*.ui-tabs-tab::before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center,rgba(0,0,0,.35) 0,transparent 80%);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: transform,opacity,-webkit-transform;
+
+}*/
+
+.ui-tabs-tab .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+
+}
+
+.ui-tabs-anchor {
+
+    text-align: center;
+    outline: none;
+    background-color: #212121;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    padding-bottom: 18px;
+    width: 100%;
+
+}
+ .ui-tabs-anchor{
+
+     background-color: #424242;
+     -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+
+ }
+
+.ui-tabs-anchor i {
+
+    color: #baff29;;
+    font-size: 65px;
+    line-height: inherit !important;
+}
+
+.ui-tabs-anchor h4 {
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+ul.list li::before {
+
+    font-family: "Font Awesome 5 Free";
+    content: "\f192";
+    font-size: 15px;
+    color: #baff29;
+    margin-right: 10px;
+
 }
