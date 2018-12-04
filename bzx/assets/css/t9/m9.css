@@ -761,8 +761,8 @@ img.filter-white {
 }
 
 .video-box-s2 {
-    /* border: 3px solid rgba(186, 255, 41, 1);
-    border: 1px solid #baff29;*/
+    /* border: 3px solid rgba(186, 255, 41, 1);*/
+    border: 1px dotted #baff29;
 }
 
 .video-box-s2:before {
