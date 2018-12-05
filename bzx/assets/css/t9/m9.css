@@ -965,10 +965,6 @@ section#documents .document-list > li .dropdown-menu li a {
 
 
 /* ui-tabs */
-.ui-tabs-tab {
-    border: 1px solid white;
-
-}
 
 
 /*.ui-tabs-tab::before {
@@ -988,34 +984,28 @@ section#documents .document-list > li .dropdown-menu li a {
     transition-property: transform,opacity,-webkit-transform;
 
 }*/
+.link_class {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
 
-.ui-tabs-tab .ui-tabs-anchor {
-    float: left;
-    padding: .5em 1em;
+.ui-tabs-tab {
+
+}
+.ui-tabs-tab a.ui-tabs-anchor {
+    background-color: #424242;
     padding-bottom: 0.5em;
     text-decoration: none;
 
-}
-
-.ui-tabs-anchor {
-
+    display:inline-block;
+    width:100%;
+    height:100%;
     text-align: center;
     outline: none;
-    background-color: #212121;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    padding-bottom: 18px;
-    width: 100%;
-
 }
- .ui-tabs-anchor{
-
-     background-color: #424242;
-     -webkit-transform: scale(1.1);
-     -ms-transform: scale(1.1);
-     transform: scale(1.1);
-
- }
 
 .ui-tabs-anchor i {
 
