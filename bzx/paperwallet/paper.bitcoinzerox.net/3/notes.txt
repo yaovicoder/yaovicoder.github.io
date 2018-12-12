@@ -1,0 +1,6 @@
+- Used tabular navigation plugin
+- Removed main id from page
+
+
+To do
+- Change language display with dropdown menu

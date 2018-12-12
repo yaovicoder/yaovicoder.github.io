@@ -1,0 +1,78 @@
+
+
+/* copied from Lungwort styles */
+
+[class*=" ti-"], [class^="ti-"] {
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.io-lungwort-cln .btn, .io-lungwort-cln .countdown-box .btn {
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(to right, #a722f4 0%, #7a5cff 100%);
+    background-image: linear-gradient(to right, #a722f4 0%, #7a5cff 100%);
+
+}
+.btns li {
+    display: inline-block;
+    margin: 10px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+.btns.no-space li {
+    margin-left: -34px;
+    margin-right: -34px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+
+}
+
+.io-lungwort-cln .btn, .io-lungwort-cln .countdown-box .btn {
+    border-radius: 6px;
+    background-image: -webkit-linear-gradient(to right, #a722f4 0%, #7a5cff 100%);
+    background-image: linear-gradient(to right, #a722f4 0%, #7a5cff 100%);
+
+}
+.btn-icon-s2 {
+    font-weight: 600;
+    color: #baff29;
+    text-transform: capitalize;
+    background: transparent !important;
+
+}
+.io-lungwort-cln .btn-icon-s2 {
+    color: #fff;
+}
+.btn-icon-s2 .ti {
+    display: inline-block;
+    color: #baff29;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: transparent;
+    transition: all 0.4s;
+
+}
+.btn-icon-s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.io-lungwort-cln .btn-icon-s2:hover .ti, .io-lungwort-cln .btn-icon-s2:focus .ti {
+    color: #fff;
+    background: #a722f4;
+}
+.btn.btn-icon-s2:before{
+    background: none;
+}

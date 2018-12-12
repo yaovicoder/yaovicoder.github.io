@@ -1,0 +1,40 @@
+{
+  "name": "image-map",
+  "version": "1.1.4",
+  "author": {
+    "name": "Travis Clarke",
+    "email": "travis.m.clarke@gmail.com",
+    "url": "https://www.travismclarke.com/"
+  },
+  "description": "Response, dynamic image maps",
+  "main": "image-map.min.js",
+  "keywords": [
+    "image",
+    "map",
+    "image map",
+    "image-map",
+    "responsive",
+    "responsive image map",
+    "responsive image-map",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarketm/image-map"
+  },
+  "bugs": {
+    "url": "https://github.com/clarketm/image-mapissues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://www.travismclarke.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

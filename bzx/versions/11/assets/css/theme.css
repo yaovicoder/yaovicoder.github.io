@@ -1,0 +1,168 @@
+/*
+ *
+ *
+ * by yaovi coder
+ */
+
+
+/* bg-colors */
+body {
+    /* background: transparent; */
+}
+
+.no-bg-color {
+    background-color: transparent !important;
+}
+
+.bg-color-cyan-medium-light {
+    background-color: #6dbddb !important;
+}
+
+/* colorize */
+.colorize-yellow-green {
+    color: #baff29 !important;
+}
+
+.colorize-blue-magenta {
+    color: #8129ff !important;
+}
+
+.img-bg-white {
+    background: #fff !important;
+}
+
+
+.io-lobelia .section-bg-alt {
+    /* background-color: #0D3851;
+       background-color: #424242; */
+    background-color: #29293d !important;
+}
+
+
+/* buttons */
+.btn, .btn::before {
+    border-radius: 0;
+}
+
+.btn.no-hover:hover, .btn.no-hover:hover::before {
+
+}
+
+.btn {
+    background-image: linear-gradient(to right, #6c9f00 0%, #baff29 100%);
+}
+
+.btn::before {
+    background: linear-gradient(to right, #000622 0%, #000 100%);
+    background: -webkit-linear-gradient(to right, #000622 0%, #000 100%);
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #000622 0%, #000 100%);
+}
+
+.btn-secondary {
+    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
+    color: #000000;
+    border: 1px solid #fff;
+}
+
+.btn-secondary-borderless {
+    background: linear-gradient(to right, #baff29 0%, #6c9f00 100%);
+    color: #000000;
+    border: none;
+}
+
+.btn-secondary:hover, .btn-secondary:before {
+    background: linear-gradient(to right, #000622 0%, #000 100%) !important;
+    color: #ffffff !important;
+    border: 1px solid #fff;
+}
+
+.btn-rectangle {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-sm.btn-rectangle {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    min-width: 80px;
+}
+
+.btn-sm.btn-rectangle::before {
+    border-radius: .2rem;
+    background: #365000;
+}
+
+.btn-rectangle.btn-default {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #6c757d;
+}
+
+.btn.border-thin {
+    border-width: 1px;
+}
+
+.btn.round, .btn.round::before {
+    border-radius: 40px;
+}
+
+.btn.semi-round,
+.btn.semi-round::before {
+    border-radius: 2px;
+}
+
+élément {
+}
+
+.btn.border-thin {
+    border-width: 1px;
+}
+
+.btn.border-thin span {
+    margin: -0.5px;
+}
+
+
+/*
+ * ra_*
+ *
+ */
+
+.ra_button {
+    background-color: #292e39;
+    color: #ffffff;
+    border-color: #292e39 !important;
+}
+
+.ra_button::before {
+    background: -webkit-linear-gradient(to right, #000622 0%, #000 100%);
+    background: linear-gradient(to right, #000622 0%, #000 100%);
+}
+
+.ra_button i {
+    margin-left: 10px;
+}
+
+.ra_icon_box .icon-container {
+    color: #d4d4d4;
+}
+
+.ra_icon_box h3 {
+    font-size: 24px;
+}
+
+.ra_icon_box .contents p {
+    font-size: 14px;
+}
+
+
+/*
+ * ra_* end
+ *
+ */

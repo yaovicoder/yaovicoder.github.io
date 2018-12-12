@@ -1,0 +1,81 @@
+@import "pe-icon/pe-icon.css";
+@import "lato/latofonts.css";
+@import "montserrat/montserrat.fonts.css";
+
+
+/* futura */
+@font-face {
+  font-family: 'futura-medium';
+  src: url('futura-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-medium-italic';
+  src: url('futura-medium-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'futura-bold';
+  src: url('futura-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-bold-italic';
+  src: url('futura-bold-italic.ttf') format('truetype');
+}
+
+/* evolve-sans */
+
+@font-face {
+  font-family: 'evolve-sans-regular';
+  src: url('evolve-sans-regular.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-light';
+  src: url('evolve-sans-light.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-bold';
+  src: url('evolve-sans-bold.otf');
+}
+
+/* aldrich-regular */
+
+@font-face {
+  font-family: 'aldrich-regular';
+  src: url('aldrich-regular.ttf');
+}
+
+/* rubik-regular */
+
+@font-face {
+  font-family: 'rubik-regular';
+  src: url('rubik-regular.ttf');
+}
+@font-face {
+  font-family: 'rubik-medium';
+  src: url('rubik-medium.ttf');
+}
+@font-face {
+  font-family: 'rubik-medium-italic';
+  src: url('rubik-medium-italic.ttf');
+}
+@font-face {
+  font-family: 'rubik-light';
+  src: url('rubik-light.ttf');
+}
+@font-face {
+  font-family: 'rubik-bold';
+  src: url('rubik-bold.ttf');
+}

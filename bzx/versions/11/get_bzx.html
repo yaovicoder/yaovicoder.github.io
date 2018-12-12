@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en-US" class="  ">
+<script src="./ps.min.js" type="text/javascript" defer="">
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>Mining Guide – BitcoinZero.</title>
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="http://s.w.org/">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+            integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <link type="text/css" media="all" href="assets/css/twbootstrap.vendor.light.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/lobelia.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/main.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/lungwort.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/css/theme.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="stylesheet" id="icos-fonts-css" href="assets/css/icos-fonts.css" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/fonts.css" type="text/css" media="all">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link rel="icon" href="favicon/icon-36.png" sizes="32x32">
+    <link rel="icon" href="favicon/icon-192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="favicon/icon-36.png">
+    <meta name="msapplication-TileImage" content="favicon/icon-36.png">
+
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="fixed-colored-nav mining-page page-template page-template-page-templates page-template-template-onepage
+        page-template-page-templates template-onepage-php page page-id-285 wpb-js-composer
+        js-comp-ver-5.4.7 vc_responsive io-lobelia icos-theme-ver-1.2 wordpress-version-4.9.8
+        no-touch loaded">
+
+<div id="wrapper">
+    <div id="content">
+        <!-- Header -->
+        <header class="site-header is-sticky">
+            <!-- Navbar -->
+            <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+                <nav class="container">
+
+                    <h1 class="navbar-brand">
+                        <a href="index.html">
+                            <div id="cspio-logo-container">
+                                <img class="logo" src="images/bzx_icon_flat_white_96.png"
+                                     alt="BZX - BitcoinZero Logo Light">
+                                <h1 id="cspio-logo-text">Bitcoin<span class="italic">Zero</span></h1>
+                            </div>
+
+                            <div id="cspio-logo2-container">
+                                <img class="logo2" src="images/bzx_logo_dark_96.png"
+                                     alt="BZX - BitcoinZero Logo Dark">
+                                <h1 id="cspio-logo-text">Bitcoin<span class="italic">Zero</span></h1>
+                            </div>
+                        </a>
+                    </h1>
+
+                    <button class="navbar-toggler" type="button">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+              </span>
+                    </button>
+
+                    <div class="navbar-collapse justify-content-end">
+                        <ul id="menu-onepage-menu" class="navbar-nav menu-top">
+                            <li id="menu-item-530"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-530">
+                                <a href="#" class="nav-link">About BZX</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#tech">Tech</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#bzx_roadmap">Roadmap</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#whitepaper">Whitepaper</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="branding.html">Branding</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-550"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a
+                                    href="#team" class="nav-link">Team</a></li>
+                            <li id="menu-item-570"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a
+                                    href="#partners" class="nav-link">Partners</a></li>
+                            <li id="menu-item-590"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535">
+                                <a target="_blank" href="https://medium.com/@BitcoinZero" class="nav-link">Blog</a>
+                            </li>
+                            <li id="menu-item-610"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a
+                                    target="_blank" href="https://chainz.cryptoid.info/bzx/" class="nav-link">Block
+                                Explorer</a></li>
+                            <li id="menu-item-630"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-536">
+                                <a href="#media" class="nav-link">Social</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#twitter">Twitter</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#discord">Discord</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#instagram">Instagram</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#reddit">Reddit</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#bitcointalk">BitcoinTalk</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#telegram">Telegram</a></li>
+                                    <li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#telegramann">Telegram Ann</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-650"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-536">
+                                <a href="#media" class="nav-link active">More</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537">
+                                        <a target="_blank" href="mining.html" class="active">
+                                            Mining Guide</a></li>
+                                    <li id="menu-item-537"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a
+                                            href="#media">Media Partners</a></li>
+                                    <!--<li id="menu-item-538"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a
+                                            href="#faqs">FAQs</a></li>-->
+                                </ul>
+                            </li>
+                            <li id="menu-item-670"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a
+                                    href="#contact" class="nav-link">Contact</a></li>
+
+                        </ul>
+                        <ul class="navbar-nav navbar-btns">
+                            <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link orphan-link"
+                                                    href="#whitepaper">whitepaper</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+            <!-- End Navbar -->
+        </header>  <!-- End Header -->
+
+        <!-- page-header -->
+        <section id="page-header" class="vc_rows wpb_row vc_row-fluid section-pad nopb bg-black bottom-dashed">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        How to mine
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Mining Guide</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px">
+                                    <span class="vc_empty_space_inner"></span>
+                                </div>
+                                <!-- section-head end -->
+                                <!-- .col -->
+                            </div><!-- wpb_wrapper -->
+                        </div><!-- vc_column-inner -->
+                    </div><!-- wpb_column -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section>
+
+        <!-- mining-guide -->
+        <section id="mining-guide" class="vc_rows wpb_row vc_row-fluid section-pad nopt section-bg ">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_row-fluid vc_column-gap-30 vc_row-o-equal-height vc_row-flex">
+
+                                                    <div class="res-m-btm wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-1 vc_col-md-3">
+                                                        <div class="vc_column-inner ">
+                                                            <div class="wpb_wrapper vc_custom_1529898116082">
+                                                                <div id="toc_container" class="no_bullets"
+                                                                     style="width: auto; display: table;">
+                                                                    <h4 class="toc_title">Table of Contents.</h4>
+                                                                    <ul class="toc_list" style="display: block;">
+                                                                        <li>
+                                                                            <a href="#getting-started">
+                                                                                <span class="toc_number toc_depth_1">1.</span>
+                                                                                Getting Started </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#the-wallet">
+                                                                                <span class="toc_number toc_depth_1">2.</span>
+                                                                                The Wallet</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#add-nodes">
+                                                                                <span class="toc_number toc_depth_1">3.</span>
+                                                                                Add Nodes</a></li>
+                                                                        <li>
+                                                                            <a href="#import-blockchain">
+                                                                                <span class="toc_number toc_depth_1">4.</span>
+                                                                                Import Blockchain</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#wallet-address">
+                                                                                <span class="toc_number toc_depth_1">5.</span>
+                                                                                Wallet-Address </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#lyra2z-miner">
+                                                                                <span class="toc_number toc_depth_1">6.</span>
+                                                                                Lyra2z Miner </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#ccminer">
+                                                                                <span class="toc_number toc_depth_1">7.</span>
+                                                                                CCminer </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="order-last order-lg-first wpb_column vc_column_container vc_col-sm-12 vc_col-md-8">
+                                                        <div class="wpb_wrapper">
+                                                            <!-- 1. getting started  row -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_text_column wpb_content_element vc_custom_1529898116082">
+                                                                    <div class="wpb_wrapper">
+                                                                        <h3 class="section-title animated fadeInUp"
+                                                                            id="'getting-started">
+                                                                            1. Getting Started </h3>
+                                                                        <div class="text-block">
+                                                                            <p class="text-justify">
+                                                                                When mining
+                                                                                BitcoinZero with the
+                                                                                <span>Lyra2z</span> algorithm
+                                                                                you’ll need a miner
+                                                                                and of course a
+                                                                                wallet to receive
+                                                                                your mined coins.
+                                                                                First you’ll need to
+                                                                                get yourself a
+                                                                                wallet-address. This
+                                                                                can be
+                                                                                achieved by
+                                                                                installing
+                                                                                the wallet-software
+                                                                                for your device.<br>
+                                                                                Now most wallets and
+                                                                                mining software will
+                                                                                get flagged as a
+                                                                                virus
+                                                                                by anti-virus
+                                                                                scanners. Because of
+                                                                                this, if your mining
+                                                                                on
+                                                                                your normal everyday
+                                                                                use
+                                                                                or gaming computer
+                                                                                that has an
+                                                                                antivirus
+                                                                                installed, you will
+                                                                                want to exclude the
+                                                                                mining software from
+                                                                                the
+                                                                                antivirus. To handle
+                                                                                this unpleasantry
+                                                                                you
+                                                                                can create a folder
+                                                                                on
+                                                                                your desktop which
+                                                                                you can exclude from
+                                                                                scans by your
+                                                                                antivirus-software.
+                                                                                Below you’ll see how
+                                                                                it’s done on
+                                                                                Bitdefender
+                                                                                AV. If you use
+                                                                                another scanner,
+                                                                                check
+                                                                                the manual of your
+                                                                                AV-scanner on how to
+                                                                                do
+                                                                                this.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- images row -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                    <div class="vc_column-inner ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                <figure class="wpb_wrapper vc_figure">
+                                                                                    <a data-rel="prettyPhoto[rel-1163-1635675040]"
+                                                                                       href="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender1.jpg"
+                                                                                       target="_self"
+                                                                                       class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                            class="vc_single_image-img "
+                                                                                            src="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender1-300x221.jpg"
+                                                                                            alt="Open Bitdefender"
+                                                                                            title="bitdefender1"
+                                                                                            width="300"
+                                                                                            height="221"></a>
+                                                                                    <figcaption
+                                                                                            class="vc_figure-caption">
+                                                                                        Open
+                                                                                        Bitdefender
+                                                                                    </figcaption>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                    <div class="vc_column-inner ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                <figure class="wpb_wrapper vc_figure">
+                                                                                    <a data-rel="prettyPhoto[rel-1163-121639013]"
+                                                                                       href="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender3.png"
+                                                                                       target="_self"
+                                                                                       class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                            src="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender3-300x221.png"
+                                                                                            class="vc_single_image-img attachment-medium"
+                                                                                            alt=""
+                                                                                            srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender3-300x221.png 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender3.png 759w"
+                                                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                                                            width="300"
+                                                                                            height="221"></a>
+                                                                                    <figcaption
+                                                                                            class="vc_figure-caption">
+                                                                                        Add
+                                                                                        Exclusion
+                                                                                    </figcaption>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                    <div class="vc_column-inner ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                <figure class="wpb_wrapper vc_figure">
+                                                                                    <a data-rel="prettyPhoto[rel-1163-323650352]"
+                                                                                       href="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender4.png"
+                                                                                       target="_self"
+                                                                                       class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                            src="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender4-300x221.png"
+                                                                                            class="vc_single_image-img attachment-medium"
+                                                                                            alt=""
+                                                                                            srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender4-300x221.png 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender4.png 759w"
+                                                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                                                            width="300"
+                                                                                            height="221"></a>
+                                                                                    <figcaption
+                                                                                            class="vc_figure-caption">
+                                                                                        Add
+                                                                                        folder
+                                                                                    </figcaption>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                                                    <div class="vc_column-inner ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                <figure class="wpb_wrapper vc_figure">
+                                                                                    <a data-rel="prettyPhoto[rel-1163-1110911186]"
+                                                                                       href="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender5.png"
+                                                                                       target="_self"
+                                                                                       class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                            src="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender5-300x221.png"
+                                                                                            class="vc_single_image-img attachment-medium"
+                                                                                            alt=""
+                                                                                            srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender5-300x221.png 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bitdefender5.png 759w"
+                                                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                                                            width="300"
+                                                                                            height="221"></a>
+                                                                                    <figcaption
+                                                                                            class="vc_figure-caption">
+                                                                                        Save Exclusion
+                                                                                    </figcaption>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- 2. the wallet -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1529898116082">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="the-wallet">
+                                                                                2. The Wallet</h3>
+                                                                            <div class="text-block">
+                                                                                <p class="text-justify">
+                                                                                    In this
+                                                                                    case
+                                                                                    we’ll be
+                                                                                    installing
+                                                                                    the
+                                                                                    64bit
+                                                                                    windows-version
+                                                                                    of the
+                                                                                    <span>BitzoinZero</span>
+                                                                                    wallet.
+                                                                                    This
+                                                                                    wallet
+                                                                                    can be
+                                                                                    downloaded
+                                                                                    on
+                                                                                    <a href="https://github.com/BitcoinZeroOfficial/bitcoinzero/releases/"
+                                                                                       target="_blank"
+                                                                                       rel="noopener">github</a>.<br>
+                                                                                    Download
+                                                                                    the
+                                                                                    version
+                                                                                    for you
+                                                                                    device
+                                                                                    to the
+                                                                                    folder
+                                                                                    you’ve
+                                                                                    just
+                                                                                    created
+                                                                                    on your
+                                                                                    desktop
+                                                                                    and
+                                                                                    unpack
+                                                                                    the
+                                                                                    zipfile.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-54383267]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_download.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Download
+                                                                                                Wallet
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-906610212]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/unpack_bzx.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Unpack
+                                                                                                Wallet
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-580242548]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Wallet
+                                                                                                In
+                                                                                                Folder
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="text-block">
+                                                                                <p class="text-justify">
+                                                                                    Once
+                                                                                    unpacked
+                                                                                    you’ll
+                                                                                    have a
+                                                                                    couple
+                                                                                    of new
+                                                                                    files in
+                                                                                    the
+                                                                                    folder.
+                                                                                    In this
+                                                                                    particular
+                                                                                    case we
+                                                                                    have the
+                                                                                    daemon
+                                                                                    ‘<span>bitcoinzerod.exe</span>‘,
+                                                                                    the
+                                                                                    commandline-interface
+                                                                                    ‘<span>bitcoinzero-cli.exe</span>‘
+                                                                                    and the graphical-interface
+                                                                                    (aka GUI)
+                                                                                    ‘<span>bitcoinzero-qt.exe</span>‘.
+                                                                                    In this tutorial we’re
+                                                                                    gonna
+                                                                                    use the
+                                                                                    GUI and
+                                                                                    we’ll
+                                                                                    first
+                                                                                    need to
+                                                                                    start
+                                                                                    it.<br>
+                                                                                    Just
+                                                                                    open the
+                                                                                    <span>bitcoinzero-qt.exe</span>
+                                                                                    and wait
+                                                                                    for it
+                                                                                    to load.
+                                                                                    You
+                                                                                    probably
+                                                                                    get a
+                                                                                    pop-up
+                                                                                    of
+                                                                                    windows-firewall,
+                                                                                    just
+                                                                                    allow it
+                                                                                    to use
+                                                                                    private
+                                                                                    networks
+                                                                                    and
+                                                                                    you’ll
+                                                                                    be fine.
+                                                                                    ( for
+                                                                                    obvious
+                                                                                    security
+                                                                                    reasons
+                                                                                    it’s
+                                                                                    recommended
+                                                                                    not to
+                                                                                    use the
+                                                                                    wallet-software
+                                                                                    on
+                                                                                    public-networks).
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-573571504]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/bzx_start-1.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Start
+                                                                                                Wallet
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1107954089]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_firewall.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Firewall
+                                                                                                Warning
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1100358033]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_wallet-sync.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Wallet
+                                                                                                Open
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element  ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="text-block">
+                                                                                <p class="text-justify">
+                                                                                <p class="text-justify">Now that
+                                                                                    the
+                                                                                    wallet
+                                                                                    is
+                                                                                    running
+                                                                                    you can
+                                                                                    see the
+                                                                                    green
+                                                                                    bar on
+                                                                                    the
+                                                                                    bottom
+                                                                                    of the
+                                                                                    screen.
+                                                                                    This bar
+                                                                                    indicates
+                                                                                    the
+                                                                                    syncing
+                                                                                    with the
+                                                                                    network.
+                                                                                    In the
+                                                                                    bottom-right
+                                                                                    corner
+                                                                                    you’ll
+                                                                                    find 2
+                                                                                    icons
+                                                                                    which
+                                                                                    indicate
+                                                                                    the
+                                                                                    connections
+                                                                                    to the
+                                                                                    network
+                                                                                    and the
+                                                                                    chain-status.
+                                                                                    When
+                                                                                    hovering
+                                                                                    over
+                                                                                    these
+                                                                                    icons
+                                                                                    the
+                                                                                    current
+                                                                                    value
+                                                                                    becomes
+                                                                                    visible.
+                                                                                    In our
+                                                                                    case
+                                                                                    you’ll
+                                                                                    notice
+                                                                                    the
+                                                                                    values
+                                                                                    remain
+                                                                                    zero. In
+                                                                                    the next
+                                                                                    step
+                                                                                    we’ll be
+                                                                                    dealing
+                                                                                    with
+                                                                                    this
+                                                                                    issue.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- 3. add nodes -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1529898116082">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="add-nodes">
+                                                                                3. Add Nodes</h3>
+                                                                            <p class="text-justify">For the blockchain
+                                                                                to synchronise with
+                                                                                the network you’ll need connections to
+                                                                                nodes. To make this work on the <span>BZX</span>
+                                                                                wallet we’ll need to add these nodes
+                                                                                manually to the configuration file.
+                                                                                Lists of nodes can be found all over the
+                                                                                internet and usually these lists can be
+                                                                                found in the Announcement-threads on
+                                                                                <span>BitcoinTalk</span>
+                                                                                or on the discord-server of the
+                                                                                respective coin. To make life easier the
+                                                                                nodes for&nbsp;<span>Bitcoinzero </span>can
+                                                                                be found&nbsp;<a
+                                                                                        href="http://nodes.bzxchain.info/"
+                                                                                        target="_blank"
+                                                                                        rel="noopener"><strong><span>here</span></strong></a>.
+                                                                            </p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-258937552]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Wallet Config
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1569268287]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzxaddnodes.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Node list
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-2102584990]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_conf_ready.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Paste Nodes
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p class="text-justify">The configuration
+                                                                                file you’ll need to
+                                                                                edit is located in the&nbsp;<span>%appdata%/Roaming/WALLETNAME</span>
+                                                                                directory. So first we need to shutdown
+                                                                                the wallet and open the windows
+                                                                                file-explorer. In the address-bar of the
+                                                                                file-explorer
+                                                                                type&nbsp;<span>%appdata%</span>
+                                                                                .This will open up the roaming-folder on
+                                                                                Windows 10 where we can find a folder
+                                                                                named after the coin we’re planning to
+                                                                                mine. In our case the folder is named
+                                                                                <span>bitcoinzero</span>.
+                                                                                Open the folder and look for the file
+                                                                                ‘<span>bitcoinzero.conf</span>‘
+                                                                                and open it in your preferred
+                                                                                text-editor. Now you’ll need to add the
+                                                                                nodes at the bottom of the text. Just
+                                                                                copy the contents of the <span>bzxaddnodes.txt</span>
+                                                                                to the file and save it. Leave the
+                                                                                bitcoinzero -folder open for the next
+                                                                                step.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- 4. import blockchain -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element  vc_custom_1529898116082">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="import-blockchain">
+                                                                                4. Import Blockchain</h3>
+                                                                            <p class="text-justify">As BZX is a fork
+                                                                                from an exciting chain
+                                                                                it’s going to take some time to sync. To
+                                                                                overcome the endless waiting for your
+                                                                                wallet to syncronize Bitcoinzero made
+                                                                                the blockchain available for download.
+                                                                                &nbsp;You can download the chain in
+                                                                                zip-format&nbsp;<strong><a
+                                                                                        href="https://github.com/BitcoinZeroOfficial/bitcoinzero/releases/download/bootstrap/blocks.zip"
+                                                                                        target="_blank" rel="noopener">Here</a></strong>
+                                                                                and it’s also available as a
+                                                                                torrent-download <strong><a
+                                                                                        href="https://www.lyra2z.com/BZX-chainfilebin.torrent"
+                                                                                        target="_blank" rel="noopener">Here</a></strong>.<br>
+                                                                                When you’ve finished downloading the
+                                                                                chain go to the bitcoinzero-folder in&nbsp;<span>%appdata% </span>and
+                                                                                delete the folders “<span>blocks</span>”
+                                                                                &amp; “<span>chainstate</span>“.
+                                                                                Now copy and unpack the downloaded
+                                                                                zip-file into the bitcoinzero-folder.
+                                                                                Wait for it to finish and restart your
+                                                                                Wallet, wait some time, and you’ll see
+                                                                                it starts syncing.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1542746054758">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-852067606]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/deletechain.gif"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper   vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/deletechain.gif"
+                                                                                                    class="vc_single_image-img attachment-full"
+                                                                                                    alt="" width="1000"
+                                                                                                    height="700"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Delete folders
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1542746074752">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-379942712]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/unpackchain.gif"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper   vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/unpackchain.gif"
+                                                                                                    class="vc_single_image-img attachment-full"
+                                                                                                    alt="" width="1000"
+                                                                                                    height="700"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Unpack Chain
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- 5. wallet address -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1529898116082">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="wallet-address">
+                                                                                5. Wallet Address
+                                                                            </h3>
+                                                                            <p class="text-justify">Next you’ll have to
+                                                                                get an
+                                                                                wallet-address. In the wallet click on
+                                                                                the tab ‘<span>recieve</span>‘.
+                                                                                Here you can put in the label field
+                                                                                whatever you like to name your address.
+                                                                                After that click on ‘request payment’
+                                                                                which will open a pop-up with a QR-code
+                                                                                and your wallet-address. We’ll minimize
+                                                                                wallet as we’ll need this later on for
+                                                                                our miner configuration.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-348399439]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_1.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Create new address
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1758460471]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/10/bzx_address_2.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Wallet Address
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- 6. Lyra2z Miner -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1529898116082 nomb">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="lyra2z-miner">
+                                                                                6. Lyra2z Miner
+                                                                            </h3>
+                                                                            <p class="text-justify">There are a few
+                                                                                things to
+                                                                                understand before you
+                                                                                mine Lyra2z coins. Lyra2z uses core
+                                                                                clock which
+                                                                                means overclocking memory gives you no
+                                                                                advantage. You don’t have to worry about
+                                                                                setting
+                                                                                the power limit as it only draws less
+                                                                                than 60%
+                                                                                of your card’s power consumption. You
+                                                                                might
+                                                                                experience crashes while overclocking
+                                                                                and it
+                                                                                even makes your computer become
+                                                                                unstable. The
+                                                                                Lyra2z Algorithm is CPU friendly, runs
+                                                                                quieter
+                                                                                and cooler.</p>
+                                                                            <p class="text-justify">Since this algorithm
+                                                                                can be
+                                                                                mined using CPU, AMD
+                                                                                and NVIDIA GPUs there are many mining
+                                                                                applications available.</p>
+                                                                            <p class="text-justify">For this tutorial
+                                                                                we’ll
+                                                                                first handle GPU-mining
+                                                                                for it’s most profitable compared to
+                                                                                cpu-mining.&nbsp;First
+                                                                                make sure you have the latest drivers
+                                                                                for your
+                                                                                GPUs. Next you’ll need to download the
+                                                                                mining-software. There are several
+                                                                                miners
+                                                                                available for windows. A few of them
+                                                                                you’ll find
+                                                                                below.</p>
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="https://github.com/tpruvot/ccminer/releases">ccminer
+                                                                                        (Nvidia GPU)</a>&nbsp;by&nbsp;<a
+                                                                                        href="https://github.com/tpruvot/">tpruvot</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="https://bitcointalk.org/index.php?topic=4412370.0">coolMiner
+                                                                                        (Nvidia GPU, closed source)</a>&nbsp;by
+                                                                                    Ryzen2700x
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="https://github.com/technobyl/CryptoDredge/releases">CryptoDredge
+                                                                                        (Nvidia GPU) by&nbsp;</a><a
+                                                                                        href="https://github.com/technobyl">technobyl</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="https://github.com/djm34/sgminer-msvc2015/releases">sgminer
+                                                                                        (AMD GPU)</a>&nbsp;by&nbsp;<a
+                                                                                        href="https://github.com/djm34">djm34</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="https://github.com/JayDDee/cpuminer-opt/releases">CPU
+                                                                                        Miner</a>&nbsp;by&nbsp;<a
+                                                                                        href="https://github.com/JayDDee/">JayDDee</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- 7. CCminer -->
+                                                            <div class="vc_row wpb_row vc_row-fluid ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element vc_custom_1529898116082 nomb">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h3 class="section-title animated fadeInUp"
+                                                                                id="ccminer">
+                                                                                7. CCminer</span>
+                                                                            </h3>
+                                                                            <p class="text-justify">For this guide we’ll
+                                                                                be using ccminer as
+                                                                                I’m using a Nvidia GPU (make sure you
+                                                                                have the latest CUDA drivers installed).
+                                                                                Just download the zip-file to the
+                                                                                mining-folder we’ve created earlier to
+                                                                                keep your AV quiet. Extract the zip-file
+                                                                                in the same folder.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-791975179]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_download.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Download Miner
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1271166016]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_downloaded.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Miner Download
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1462685949]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/ccminer_unpacked.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Unpack Miner
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p class="text-justify">Next we’ll need to
+                                                                                configure the miner.
+                                                                                For this we have a configurator on every
+                                                                                coinpage which will help you get the
+                                                                                right configuration for your miner. Go
+                                                                                to the coin-page on our website. In this
+                                                                                case
+                                                                                <a href="https://www.lyra2z.com/bzx/"
+                                                                                   target="_blank" rel="noopener">https://www.lyra2z.com/bzx/</a>
+                                                                            </p>
+                                                                            <p class="text-justify">On the bottom of the
+                                                                                page you’ll find the
+                                                                                configurator. Fill in your
+                                                                                wallet-address and worker-name and click
+                                                                                on “Copy to Clipboard”.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-937829592]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/configurator.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/configurator-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/configurator-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/configurator-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/configurator-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/configurator.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Use Configurator
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1697979621]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-1.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Create new textfile
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-2050447708]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/config2-2.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Save as BZX.cmd
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p class="text-justify">Open Notepad and
+                                                                                start the first line
+                                                                                with <code>ccminer-x64</code> behind
+                                                                                this paste the outcome of the
+                                                                                configurator and end the line with
+                                                                                <code>--cpu-priority 3</code><br/>
+                                                                                On the second line you type
+                                                                                <code>pause</code>. And that’s it.<br/>
+                                                                                Your configuration should look similar
+                                                                                to this:</p>
+                                                                            <p class="text-justify">
+                                                                                <code class="tag">ccminer-x64 -a lyra2z
+                                                                                    -o
+                                                                                    stratum+tcp://pool.lyra2z.com:4569
+                                                                                    -u your_wallet_address.worker_name
+                                                                                    -p </code><br/>
+                                                                                <code class="tag">c=BZX --cpu-priority
+                                                                                    3</code><br/>
+                                                                                <code class="tag"> pause</code></p>
+                                                                            <p class="text-justify">Now save the file as
+                                                                                a .cmd file
+                                                                                (<span>for e.g. BZX.cmd</span>)
+                                                                                in the same folder where you had
+                                                                                extracted the miner binary earlier.</p>
+                                                                            <p class="text-justify">To start mining
+                                                                                double-click the .cmd
+                                                                                file you’d just created and a new window
+                                                                                should open.</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid noborder">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                                                                        <figure class="wpb_wrapper vc_figure">
+                                                                                            <a data-rel="prettyPhoto[rel-1163-1115227384]"
+                                                                                               href="https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining.jpg"
+                                                                                               target="_self"
+                                                                                               class="vc_single_image-wrapper vc_box_shadow_border  vc_box_border_grey prettyphoto"><img
+                                                                                                    src="https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining-300x210.jpg"
+                                                                                                    class="vc_single_image-img attachment-medium"
+                                                                                                    alt=""
+                                                                                                    srcset="https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining-300x210.jpg 300w, https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining-768x538.jpg 768w, https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining-800x560.jpg 800w, https://www.lyra2z.com/wp-content/uploads/2018/11/start_mining.jpg 1000w"
+                                                                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                    width="300"
+                                                                                                    height="210"></a>
+                                                                                            <figcaption
+                                                                                                    class="vc_figure-caption">
+                                                                                                Start Mining
+                                                                                            </figcaption>
+                                                                                        </figure>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                            <div class="vc_column-inner ">
+                                                                                <div class="wpb_wrapper"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p class="text-justify">If you’re seeing
+                                                                                your shares as accepted,
+                                                                                you should be good to go! Note that it
+                                                                                make take a few minutes for the correct
+                                                                                speed to be reflected on the pool’s
+                                                                                website and your mining command line.
+                                                                                Happy mining!</p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- wpb_wrapper -->
+                        </div><!-- vc_column-inner -->
+                    </div><!-- wpb_column -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section>
+
+        <!-- livestats -->
+        <section id="livestats" class="vc_rows wpb_row vc_row-fluid section-pad-sm bg-black">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <!-- section-head -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp"
+                                                        data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Live Stats
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Statistics</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_hidden-sm">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space  vc_hidden-sm vc_hidden-xs" style="height: 60px">
+                                    <span class="vc_empty_space_inner"></span>
+                                </div>
+                                <!-- section-head end -->
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div data-animate="fadeInUp" data-delay="0.2"
+                                         class="wpb_column vc_column_container vc_col-sm-12 animated fadeInUp"
+                                         style="visibility: visible; animation-delay: 0.2s;">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row" style="margin: 0 -30px 0 -30px" id="ticker-panels">
+
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_col-lg-6" style="padding:0">
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">BTC price&nbsp;<a
+                                                                            href="#trading-warning"
+                                                                            class="glyphicon glyphicon-asterisk"
+                                                                            style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body"><span><a
+                                                                            href="https://coinmarketcap.com/currencies/bitcoin-zero/#markets"
+                                                                            id="ticker" target="_blank"
+                                                                            rel="noopener">-</a></span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading"
+                                                                    >USD price&nbsp;
+                                                                        <a href="#trading-warning"
+                                                                           class="fas fa-asterisk"
+                                                                           style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body">
+                                                                        <span id="tickerUSD">-</span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">
+                                                                        Market&nbsp;Cap&nbsp;
+                                                                        <a href="#trading-warning"
+                                                                           class="fas fa-asterisk"
+                                                                           style="font-size: 65%;top: -3px;"></a>
+                                                                    </center>
+                                                                    <center class="panel-body">
+                                                                    <span>
+                                                                         <a href="https://coinmarketcap.com/currencies/bitcoin-zero/"
+                                                                            id="marketCap" target="_blank"
+                                                                            rel="noopener">-</a>
+                                                                    </span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vc_col-lg-6" style="padding:0">
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+
+                                                                    <center class="panel-heading">Hashrate</center>
+                                                                    <center class="panel-body"><span
+                                                                            id="hashrate">-</span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">Difficulty</center>
+                                                                    <center class="panel-body">
+                                                                        <span><a href="" id="difficulty">-</a></span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc_col-lg-4">
+                                                                <div class="panel panel-default">
+                                                                    <center class="panel-heading">Outstanding</center>
+                                                                    <center class="panel-body">
+                                                                        <span><a href="" id="outstanding">-</a></span>
+                                                                    </center>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- wpb_wrapper -->
+                        </div><!-- vc_column-inner -->
+                    </div><!-- wpb_column -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="vc_rows wpb_row vc_row-fluid section-pad-sm no-pb bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-5">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="section-head-s6">
+                                                    <h6 class="heading-sm-s2 animated fadeInUp" data-animate="fadeInUp"
+                                                        data-delay=".1"
+                                                        style="visibility: visible; animation-delay: 0.1s;">
+                                                        Contact
+                                                    </h6>
+                                                    <h2 class="section-title-s6 animated fadeInUp"
+                                                        data-animate="fadeInUp" data-delay=".2"
+                                                        style="visibility: visible; animation-delay: 0.2s;">
+                                                        Want to reach us?</h2>
+                                                </div>
+
+
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1530851482498">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="animated fadeInUp" data-animate="fadeInUp"
+                                                           data-delay=".3"
+                                                           style="visibility: visible; animation-delay: 0.3s;">
+                                                            Any question? Reach out to us directly.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-7 ">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="row text-center section-pad-40 no-pb">
+                                                    <ul class="social">
+
+                                                        <li><a class="" target="_blank" href="#"><em
+                                                                class="fab fa-discord"></em></a></li>
+                                                        <li><a target="_blank"
+                                                               href="https://medium.com/@BitcoinZero"><em
+                                                                class="fab fa-medium"></em></a></li>
+                                                        <li><a target="_blank"
+                                                               href="https://twitter.com/BitcoinZer0X"><em
+                                                                class="fab fa-twitter"></em></a></li>
+                                                        <li><a target="_blank"
+                                                               href="https://github.com/BitcoinZeroOfficial"><em
+                                                                class="fab fa-github"></em></a>
+                                                        </li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fa-youtube"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fa-instagram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em class="fab fa-bitcoin"></em></a>
+                                                        </li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-telegram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-telegram"></em></a></li>
+                                                        <li><a target="_blank" href="#"><em
+                                                                class="fab fab fa-reddit"></em></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- footer -->
+        <footer class="section footer-section section-pad-sm bg-black">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <span class="copyright-text">
+                Copyright © 2018, BitcoinZeroX.<br/>
+                            All trademarks and copyrights belong to their respective owners.
+              </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" id="back-to-top" class="fas fa-arrow-up"></a>
+
+        <!-- Preloader !remove please if you do not want -->
+        <div id="preloader" style="display: none;">
+            <div id="loader" style="display: none;"></div>
+            <div class="loader-section loader-top"></div>
+            <div class="loader-section loader-bottom"></div>
+        </div>
+        <!-- Preloader End -->
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="assets/lib/chainz/utils.js"></script>
+<script>
+    var coinShort = "BZX", lastOutstanding = 53169012.1321646,
+        overviewJS = 'assets/lib/chainz/overview.js?1', explorerVersion = 12;
+</script>
+<script type="text/javascript" defer="" src="assets/lib/chainz/explorer.js?4"></script>
+<script type="text/javascript" defer="" src="assets/js/main.js"></script></body>
+
+</html>

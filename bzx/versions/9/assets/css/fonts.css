@@ -1,0 +1,81 @@
+@import "../fonts/pe-icon/pe-icon.css";
+@import "../fonts/lato/latofonts.css";
+@import "../fonts/montserrat/montserrat.fonts.css";
+
+
+/* futura */
+@font-face {
+  font-family: 'futura-medium';
+  src: url('../fonts/futura-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-medium-italic';
+  src: url('../fonts/futura-medium-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'futura-bold';
+  src: url('../fonts/futura-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'futura-bold-italic';
+  src: url('../fonts/futura-bold-italic.ttf') format('truetype');
+}
+
+/* evolve-sans */
+
+@font-face {
+  font-family: 'evolve-sans-regular';
+  src: url('../fonts/evolve-sans-regular.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-light';
+  src: url('../fonts/evolve-sans-light.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('../fonts/evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-medium';
+  src: url('../fonts/evolve-sans-medium.otf');
+}
+
+@font-face {
+  font-family: 'evolve-sans-bold';
+  src: url('../fonts/evolve-sans-bold.otf');
+}
+
+/* aldrich-regular */
+
+@font-face {
+  font-family: 'aldrich-regular';
+  src: url('../fonts/aldrich-regular.ttf');
+}
+
+/* rubik-regular */
+
+@font-face {
+  font-family: 'rubik-regular';
+  src: url('../fonts/rubik-regular.ttf');
+}
+@font-face {
+  font-family: 'rubik-medium';
+  src: url('../fonts/rubik-medium.ttf');
+}
+@font-face {
+  font-family: 'rubik-medium-italic';
+  src: url('../fonts/rubik-medium-italic.ttf');
+}
+@font-face {
+  font-family: 'rubik-light';
+  src: url('../fonts/rubik-light.ttf');
+}
+@font-face {
+  font-family: 'rubik-bold';
+  src: url('../fonts/rubik-bold.ttf');
+}
