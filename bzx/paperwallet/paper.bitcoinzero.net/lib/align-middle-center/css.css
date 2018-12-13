@@ -1,0 +1,22 @@
+
+.center-middle, .center-middle-inline {
+    display: table;
+}
+
+.center-middle > div,
+.center-middle > span,
+.center-middle > label,
+.center-middle > input,
+.center-middle > p,
+.center-middle > a {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.center-middle-flex {
+    display: flex !important;
+    justify-content: center !important; /* align horizontal */
+    align-items: center !important; /* align vertical */
+
+}
